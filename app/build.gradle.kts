@@ -5,10 +5,12 @@ plugins {
 }
 
 android {
+    namespace = "com.masum.learnings"
     namespace = "com.masum.learning"
     compileSdk = 35
 
     defaultConfig {
+        applicationId = "com.masum.learnings"
         applicationId = "com.masum.learning"
         minSdk = 21
         targetSdk = 35
