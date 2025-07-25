@@ -5,18 +5,15 @@ plugins {
 }
 
 android {
-    namespace = "com.masum.learnings"
     namespace = "com.masum.learning"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.masum.learnings"
         applicationId = "com.masum.learning"
         minSdk = 21
-        targetSdk = 35
+    targetSdk = 36
         versionCode = 1
         versionName = "1.0"
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -38,6 +35,9 @@ android {
     }
     buildFeatures {
         compose = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.0"
     }
 }
 
