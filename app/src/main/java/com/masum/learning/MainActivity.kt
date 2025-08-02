@@ -13,11 +13,15 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 
@@ -36,14 +40,76 @@ class MainActivity : ComponentActivity() {
                 contentAlignment = Alignment.Center
             ) {
                 Text(
-                    text = "Why am I doing this shit",
+                    text = buildAnnotatedString {
+                        withStyle(
+                            style = SpanStyle (
+                                color = Color.Green,
+                                fontSize = 50.sp
+                            )
+                        ) {
+                            append("W")
+                        }
+                        append("hy")
+                        withStyle(
+                            style = SpanStyle (
+                                color = Color.Green,
+                                fontSize = 50.sp
+                            )
+                        ) {
+                            append("T")
+                        }
+                        append("he ")
+                        withStyle(
+                            style = SpanStyle (
+                                color = Color.Green,
+                                fontSize = 50.sp
+                            )
+                        ) {
+                            append("H")
+                        }
+                        append("ell ")
+                        withStyle(
+                            style = SpanStyle (
+                                color = Color.Green,
+                                fontSize = 50.sp
+                            )
+                        ) {
+                            append("I ")
+                        }
+                        withStyle(
+                            style = SpanStyle (
+                                color = Color.Green,
+                                fontSize = 50.sp
+                            )
+                        ) {
+                            append("A")
+                        }
+                        append("m ")
+                        withStyle(
+                            style = SpanStyle (
+                                color = Color.Green,
+                                fontSize = 50.sp
+                            )
+                        ) {
+                            append("D")
+                        }
+                        append("oing ")
+                        withStyle(
+                            style = SpanStyle (
+                                color = Color.Green,
+                                fontSize = 50.sp
+                            )
+                        ) {
+                            append("T")
+                        }
+                        append("his!")
+                    },
                     color = Color.Cyan,
                     fontSize = 40.sp,
                     fontFamily = fontFamily,
                     fontWeight = FontWeight.Bold,
                     fontStyle = FontStyle.Italic,
                     textAlign = TextAlign.Center,
-
                 )
             }
         }
