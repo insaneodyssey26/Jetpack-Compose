@@ -10,11 +10,14 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 
@@ -29,13 +32,18 @@ class MainActivity : ComponentActivity() {
         setContent {
             Box( modifier = Modifier
                 .fillMaxSize()
-                .background(Color(0xFF121212))
+                .background(Color(0xFF121212)),
+                contentAlignment = Alignment.Center
             ) {
                 Text(
                     text = "Why am I doing this shit",
                     color = Color.Cyan,
                     fontSize = 40.sp,
-                    fontFamily = fontFamily
+                    fontFamily = fontFamily,
+                    fontWeight = FontWeight.Bold,
+                    fontStyle = FontStyle.Italic,
+                    textAlign = TextAlign.Center,
+
                 )
             }
         }
