@@ -38,7 +38,9 @@ class MainActivity : ComponentActivity() {
             Font(R.font.libertinussans_italic, FontWeight.Normal)
         )
         setContent {
-
+            ColorBox(
+                Modifier.fillMaxSize()
+            )
         }
     }
 }
