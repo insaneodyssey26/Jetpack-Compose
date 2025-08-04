@@ -32,11 +32,6 @@ import kotlin.random.Random
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val fontFamily = FontFamily(
-            Font(R.font.libertinussans_regular, FontWeight.Normal),
-            Font(R.font.libertinussans_bold, FontWeight.Bold),
-            Font(R.font.libertinussans_italic, FontWeight.Normal)
-        )
         setContent {
             ColorBox(
                 Modifier.fillMaxSize()
