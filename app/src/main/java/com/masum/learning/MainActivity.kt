@@ -35,8 +35,16 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             Column (Modifier.fillMaxSize()) {
+                val color = remember {
+                    mutableStateOf(Color.Cyan)
+                }
                 ColorBox(
-                    Modifier.fillMaxSize()
+                    Modifier.fillMaxSize().weight(1f)
+                )
+                Box(modifier = Modifier
+                    .background(color.value)
+                    .weight(1f)
+                    .fillMaxSize()
                 )
             }
         }
@@ -45,10 +53,6 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun ColorBox(modifier: Modifier = Modifier) {
-
-    val color = remember {
-        mutableStateOf(Color.Cyan)
-    }
 
     Box(modifier = modifier
         .background(color.value)
