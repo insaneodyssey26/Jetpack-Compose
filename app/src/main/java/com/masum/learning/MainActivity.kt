@@ -40,7 +40,9 @@ class MainActivity : ComponentActivity() {
                 }
                 ColorBox(
                     Modifier.fillMaxSize().weight(1f)
-                )
+                ) {
+                    color.value = it
+                }
                 Box(modifier = Modifier
                     .background(color.value)
                     .weight(1f)
@@ -52,16 +54,20 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun ColorBox(modifier: Modifier = Modifier) {
+fun ColorBox(modifier: Modifier = Modifier,
+             updateColor: (Color) -> Unit
+) {
 
     Box(modifier = modifier
-        .background(color.value)
+        .background(Color.Red)
         .clickable {
-            color.value = Color(
+            updateColor (
+            Color(
                 Random.nextFloat(),
                 Random.nextFloat(),
                 Random.nextFloat(),
                 alpha = 1f
+            )
             )
         }
     )
