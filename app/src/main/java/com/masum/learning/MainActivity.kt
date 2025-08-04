@@ -12,6 +12,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -45,9 +46,11 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun ColorBox(modifier: Modifier = Modifier) {
 
-    val color = mutableStateOf(Color.Cyan)
+    val color = remember {
+        mutableStateOf(Color.Cyan)
+    }
 
-    Box(modifier = Modifier
+    Box(modifier = modifier
         .background(color.value)
         .clickable {
             color.value = Color(
