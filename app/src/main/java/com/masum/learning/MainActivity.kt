@@ -34,41 +34,26 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            Column (Modifier.fillMaxSize()) {
-                val color = remember {
-                    mutableStateOf(Color.Cyan)
-                }
-                ColorBox(
-                    Modifier.fillMaxSize().weight(1f)
-                ) {
-                    color.value = it
-                }
-                Box(modifier = Modifier
-                    .background(color.value)
-                    .weight(1f)
-                    .fillMaxSize()
-                )
-            }
         }
     }
 }
 
-@Composable
-fun ColorBox(modifier: Modifier = Modifier,
-             updateColor: (Color) -> Unit
-) {
-
-    Box(modifier = modifier
-        .background(Color.Red)
-        .clickable {
-            updateColor (
-            Color(
-                Random.nextFloat(),
-                Random.nextFloat(),
-                Random.nextFloat(),
-                alpha = 1f
-            )
-            )
-        }
-    )
-}
+//@Composable
+//fun ColorBox(modifier: Modifier = Modifier,
+//             updateColor: (Color) -> Unit
+//) {
+//
+//    Box(modifier = modifier
+//        .background(Color.Red)
+//        .clickable {
+//            updateColor (
+//            Color(
+//                Random.nextFloat(),
+//                Random.nextFloat(),
+//                Random.nextFloat(),
+//                alpha = 1f
+//            )
+//            )
+//        }
+//    )
+//}
