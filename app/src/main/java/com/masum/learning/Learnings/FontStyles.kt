@@ -19,88 +19,89 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun fontStyle(modifier: Modifier = Modifier) {
+fun FontStyle(modifier: Modifier = Modifier) {
     val fonts = FontFamily(
         Font(R.font.libertinussans_regular),
         Font(R.font.libertinussans_bold),
         Font(R.font.libertinussans_italic)
     )
-            Box( modifier = Modifier
-                .fillMaxSize()
-                .background(Color(0xFF121212)),
-                contentAlignment = Alignment.Center
-            ) {
-                Text(
-                    text = buildAnnotatedString {
-                        withStyle(
-                            style = SpanStyle(
-                                color = Color.Green,
-                                fontSize = 50.sp,
-                            )
-                        ) {
-                            append("W")
-                        }
-                        append("hy")
-                        withStyle(
-                            style = SpanStyle(
-                                color = Color.Green,
-                                fontSize = 50.sp,
-                            )
-                        ) {
-                            append("T")
-                        }
-                        append("he ")
-                        withStyle(
-                            style = SpanStyle(
-                                color = Color.Green,
-                                fontSize = 50.sp,
-                            )
-                        ) {
-                            append("H")
-                        }
-                        append("ell ")
-                        withStyle(
-                            style = SpanStyle(
-                                color = Color.Green,
-                                fontSize = 50.sp,
-                            )
-                        ) {
-                            append("I ")
-                        }
-                        withStyle(
-                            style = SpanStyle(
-                                color = Color.Green,
-                                fontSize = 50.sp,
-                            )
-                        ) {
-                            append("A")
-                        }
-                        append("m ")
-                        withStyle(
-                            style = SpanStyle(
-                                color = Color.Green,
-                                fontSize = 50.sp,
-                            )
-                        ) {
-                            append("D")
-                        }
-                        append("oing ")
-                        withStyle(
-                            style = SpanStyle(
-                                color = Color.Green,
-                                fontSize = 50.sp,
-                            )
-                        ) {
-                            append("T")
-                        }
-                        append("his!")
-                    },
-                    color = Color.Cyan,
-                    fontSize = 40.sp,
-                    fontFamily = fonts,
-                    fontWeight = FontWeight.Bold,
-                    fontStyle = FontStyle.Italic,
-                    textAlign = TextAlign.Center
-                )
-            }
+    Box(
+        modifier = modifier
+            .fillMaxSize()
+            .background(Color(0xFF121212)),
+        contentAlignment = Alignment.Center
+    ) {
+        Text(
+            text = buildAnnotatedString {
+                withStyle(
+                    style = SpanStyle(
+                        color = Color.Green,
+                        fontSize = 50.sp,
+                    )
+                ) {
+                    append("W")
+                }
+                append("hy")
+                withStyle(
+                    style = SpanStyle(
+                        color = Color.Green,
+                        fontSize = 50.sp,
+                    )
+                ) {
+                    append("T")
+                }
+                append("he ")
+                withStyle(
+                    style = SpanStyle(
+                        color = Color.Green,
+                        fontSize = 50.sp,
+                    )
+                ) {
+                    append("H")
+                }
+                append("ell ")
+                withStyle(
+                    style = SpanStyle(
+                        color = Color.Green,
+                        fontSize = 50.sp,
+                    )
+                ) {
+                    append("I ")
+                }
+                withStyle(
+                    style = SpanStyle(
+                        color = Color.Green,
+                        fontSize = 50.sp,
+                    )
+                ) {
+                    append("A")
+                }
+                append("m ")
+                withStyle(
+                    style = SpanStyle(
+                        color = Color.Green,
+                        fontSize = 50.sp,
+                    )
+                ) {
+                    append("D")
+                }
+                append("oing ")
+                withStyle(
+                    style = SpanStyle(
+                        color = Color.Green,
+                        fontSize = 50.sp,
+                    )
+                ) {
+                    append("T")
+                }
+                append("his!")
+            },
+            color = Color.Cyan,
+            fontSize = 40.sp,
+            fontFamily = fonts,
+            fontWeight = FontWeight.Bold,
+            fontStyle = FontStyle.Italic,
+            textAlign = TextAlign.Center
+        )
     }
+}
