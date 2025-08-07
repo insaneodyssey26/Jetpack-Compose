@@ -7,6 +7,10 @@ import androidx.constraintlayout.compose.ConstraintSet
 @Composable
 fun ConstraintLayout (modifier: Modifier = Modifier) {
     val constraints = ConstraintSet {
+        val greenBox = createRefFor("greenBox")
+        val redBox = createRefFor("redBox")
+        constrain(greenBox) {
 
+        }
     }
 }
