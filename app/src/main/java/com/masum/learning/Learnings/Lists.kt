@@ -1,5 +1,6 @@
 package com.masum.learning.Learnings
 
+import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -16,9 +17,10 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun Lists (modifier: Modifier = Modifier) {
-    val scrollState = rememberScrollState()
+    val scrollState: ScrollState = rememberScrollState()
     Column (
-    ){
+        modifier = Modifier.verticalScroll(scrollState)
+    ) {
         for (i in 1..50) {
             Text(
                 text  = "Item $i",
