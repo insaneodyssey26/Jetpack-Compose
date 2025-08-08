@@ -17,5 +17,11 @@ fun ConstraintLayout (modifier: Modifier = Modifier) {
             width = Dimension.value(100.dp)
             height = Dimension.value(100.dp)
         }
+        constrain(redBox) {
+            top.linkTo(parent.top)
+            start.linkTo(greenBox.end)
+            width = Dimension.value(100.dp)
+            height = Dimension.value(100.dp)
+        }
     }
 }
