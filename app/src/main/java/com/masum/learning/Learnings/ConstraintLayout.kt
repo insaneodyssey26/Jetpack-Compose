@@ -8,6 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.layoutId
 import androidx.compose.ui.unit.dp
+import androidx.constraintlayout.compose.ChainStyle
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.ConstraintSet
 import androidx.constraintlayout.compose.Dimension
@@ -17,8 +18,9 @@ fun ConstraintLayout (modifier: Modifier = Modifier) {
     val constraints = ConstraintSet {
         val greenBox = createRefFor("greenBox")
         val redBox = createRefFor("redBox")
+        val guideline = createGuidelineFromTop(.5f)
         constrain(greenBox) {
-            top.linkTo(parent.top)
+            top.linkTo(guideline)
             start.linkTo(parent.start)
             width = Dimension.value(100.dp)
             height = Dimension.value(100.dp)
@@ -29,6 +31,7 @@ fun ConstraintLayout (modifier: Modifier = Modifier) {
             width = Dimension.value(100.dp)
             height = Dimension.value(100.dp)
         }
+        createHorizontalChain(greenBox, redBox,  chainStyle = ChainStyle.Packed)
     }
     ConstraintLayout(constraints, modifier = Modifier.fillMaxSize()) {
         Box(modifier = Modifier
