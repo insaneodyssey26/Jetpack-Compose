@@ -38,8 +38,9 @@ import androidx.compose.ui.unit.sp
 //        }
 //    }
 //}
-
-// LazyColumn
+// We have to manually make columns sccrollable, which is not the case with LazyColumn.... They are scrollable by default
+// LazyColumn is more efficient for large lists as it only composes and lays out the visible items, while Column with verticalScroll will compose all items at once, which can lead to performance issues with large datasets.
+// Here's the lazycolumn version:
 @Composable
 fun Lists(modifier: Modifier = Modifier) {
     LazyColumn {
