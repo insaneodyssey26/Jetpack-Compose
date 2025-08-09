@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import com.masum.learning.Learnings.ConstraintLayout
+import com.masum.learning.Learnings.EffectHandlers
 import com.masum.learning.Learnings.Lists
 import com.masum.learning.Learnings.Snackbar
 import com.masum.learning.Learnings.StatesScreen
@@ -12,6 +13,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
+            EffectHandlers()
         }
     }
 }
