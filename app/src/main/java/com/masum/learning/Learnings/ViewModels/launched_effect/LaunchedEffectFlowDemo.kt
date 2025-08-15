@@ -1,8 +1,7 @@
-package com.masum.learning.Learnings.ViewModels.LaunchedEffects
+package com.masum.learning.Learnings.ViewModels.launched_effect
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.ui.Modifier
 
 @Composable
 fun LaunchedEffectFlowDemo(

@@ -1,4 +1,4 @@
-package com.masum.learning.Learnings.ViewModels.LaunchedEffects
+package com.masum.learning.Learnings.ViewModels.launched_effect
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
