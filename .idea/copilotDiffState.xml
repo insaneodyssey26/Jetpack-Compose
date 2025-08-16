@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/masum/learning/Learnings/ViewModels/snapshot_flow/SnapshotFlowDemo.kt">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/app/src/main/java/com/masum/learning/Learnings/ViewModels/snapshot_flow/SnapshotFlowDemo.kt" />
+              <option name="originalContent" value="package com.masum.learning.Learnings.ViewModels.snapshot_flow&#10;&#10;import androidx.compose.runtime.Composable&#10;import androidx.compose.runtime.LaunchedEffect&#10;import androidx.compose.runtime.snapshotFlow&#10;import androidx.compose.ui.Modifier&#10;import kotlinx.coroutines.flow.collect&#10;import kotlinx.coroutines.flow.distinctUntilChanged&#10;import kotlinx.coroutines.flow.mapNotNull&#10;&#10;@Composable&#10;fun SnapshotFlowDemo (modifier: Modifier = Modifier) {&#10;    val scaffoldState = rememberScffoldState()&#10;    LaunchedEffect(scaffoldState) {&#10;        snapshotFlow { scaffoldState.snackbarHostState }&#10;            .mapNotNull { it.currentSnackbarData?.message }&#10;            .distinctUntilChanged()&#10;            .collect { message -&gt;&#10;                println(&quot;A snackbar with message '$message' was shown.&quot;)&#10;            }&#10;    }&#10;}" />
+              <option name="updatedContent" value="package com.masum.learning.Learnings.ViewModels.snapshot_flow&#10;&#10;import androidx.compose.material.ScaffoldState&#10;import androidx.compose.material.rememberScaffoldState&#10;import androidx.compose.runtime.Composable&#10;import androidx.compose.runtime.LaunchedEffect&#10;import androidx.compose.runtime.remember&#10;import androidx.compose.ui.Modifier&#10;import kotlinx.coroutines.flow.collect&#10;import kotlinx.coroutines.flow.distinctUntilChanged&#10;import kotlinx.coroutines.flow.mapNotNull&#10;&#10;@Composable&#10;fun SnapshotFlowDemo(modifier: Modifier = Modifier) {&#10;    // Create and remember the scaffold state&#10;    val scaffoldState = rememberScaffoldState()&#10;    LaunchedEffect(scaffoldState) {&#10;        snapshotFlow { scaffoldState.snackbarHostState.currentSnackbarData?.message }&#10;            .mapNotNull { it }&#10;            .distinctUntilChanged()&#10;            .collect { message -&gt;&#10;                println(&quot;A snackbar with message '$message' was shown.&quot;)&#10;            }&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
