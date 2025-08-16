@@ -1,6 +1,9 @@
 package com.masum.learning.Learnings
 
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.LinearOutSlowInEasing
 import androidx.compose.animation.core.animateDpAsState
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
@@ -19,7 +22,14 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun SimpleAnimation(modifier: Modifier = Modifier) {
     var sizeState by remember { mutableStateOf(200.dp) }
-    val size by animateDpAsState(targetValue = sizeState)
+    val size by animateDpAsState(
+        targetValue = sizeState,
+        tween (
+            durationMillis = 1000,
+            delayMillis = 200,
+            easing = LinearOutSlowInEasing
+        )
+    )
     Box (
         modifier = Modifier
             .background(Color.Red)
