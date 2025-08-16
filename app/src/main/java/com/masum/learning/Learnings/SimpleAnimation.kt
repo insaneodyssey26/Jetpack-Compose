@@ -1,5 +1,6 @@
 package com.masum.learning.Learnings
 
+import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
@@ -18,10 +19,11 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun SimpleAnimation(modifier: Modifier = Modifier) {
     var sizeState by remember { mutableStateOf(200.dp) }
+    val size by animateDpAsState(targetValue = sizeState)
     Box (
         modifier = Modifier
             .background(Color.Red)
-            .size(sizeState),
+            .size(size),
         contentAlignment = Alignment.Center
     ){
         Button(onClick = {
