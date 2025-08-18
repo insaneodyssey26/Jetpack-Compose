@@ -36,6 +36,9 @@ fun SimpleAnimation(modifier: Modifier = Modifier) {
 //        spring(
 //            Spring.DampingRatioMediumBouncy
 //        )
+
+        // Using tween is better for simple animations
+        // Using keyframes is better for complex animations
         keyframes {
             durationMillis = 5000
             sizeState at 0 using LinearEasing
