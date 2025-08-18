@@ -1,9 +1,11 @@
 package com.masum.learning.Learnings
 
+import androidx.compose.animation.core.FastOutLinearInEasing
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.LinearOutSlowInEasing
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.animateDpAsState
+import androidx.compose.animation.core.keyframes
 import androidx.compose.animation.core.spring
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
@@ -31,9 +33,16 @@ fun SimpleAnimation(modifier: Modifier = Modifier) {
 //            delayMillis = 200,
 //            easing = LinearOutSlowInEasing
 //        )
-        spring(
-            Spring.DampingRatioMediumBouncy
-        )
+//        spring(
+//            Spring.DampingRatioMediumBouncy
+//        )
+        keyframes {
+            durationMillis = 5000
+            sizeState at 0 using LinearEasing
+            sizeState * 1.5f at 1000 using FastOutLinearInEasing
+            sizeState * 2f at 5000
+        }
+        
     )
     Box (
         modifier = Modifier
