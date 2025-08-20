@@ -5,6 +5,7 @@ import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -17,6 +18,7 @@ import androidx.compose.ui.graphics.Canvas
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
@@ -25,12 +27,11 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun CircularProgressBar (
-    modifier: Modifier = Modifier,
     percentage : Float,
     number: Int,
     fontSize: TextUnit = 20.sp,
     radius: Dp = 50.dp,
-    color: Color = Color.Cyan,
+    color: Color = Color.Red,
     strokeWidth: Dp = 8.dp,
     animDuration: Int = 1000,
     animDelay : Int = 0
@@ -50,7 +51,7 @@ fun CircularProgressBar (
     }
     Box(
         contentAlignment = Alignment.Center,
-        modifier = Modifier.size(radius = 2f)
+        modifier = Modifier.size(radius * 2f)
     ) {
         Canvas(modifier = Modifier.size(radius *2f)) {
             drawArc(
@@ -61,5 +62,11 @@ fun CircularProgressBar (
                 style = Stroke(strokeWidth.toPx(), cap = StrokeCap.Round)
             )
         }
+        Text(
+            text = (currPercentage.value * number).toInt().toString(),
+            color = Color.Black,
+            fontSize = fontSize,
+            fontWeight = FontWeight.Bold
+        )
     }
 }
