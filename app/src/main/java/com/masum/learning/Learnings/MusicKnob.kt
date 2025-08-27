@@ -6,6 +6,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.input.pointer.pointerInteropFilter
 import androidx.compose.ui.layout.boundsInWindow
 import androidx.compose.ui.layout.onGloballyPositioned
@@ -14,6 +15,14 @@ import com.masum.learning.R
 import kotlin.math.PI
 import kotlin.math.atan2
 
+@Composable
+fun VolumeBar(
+    modifier: Modifier = Modifier,
+    activeBars: Int = 0,
+    totalBars: Int = 10
+) {
+    
+}
 @Composable
 fun MusicKnob (
     modifier: Modifier = Modifier,
@@ -50,24 +59,25 @@ fun MusicKnob (
                 touchY = event.y
                 val angle = -atan2(centerX - touchX, centerY - touchY) * (180f / PI).toFloat()
                 when (event.action) {
-                     android.view.MotionEvent.ACTION_DOWN,
-                     android.view.MotionEvent.ACTION_MOVE -> {
-                         if (angle in -limitingAngle..limitingAngle) {
-                             val fixedAngle = if (angle in -180f..-limitingAngle) {
-                                    360f + angle
-                                } else {
-                                    angle
-                             }
-                             rotation = fixedAngle
-                                val percent = (fixedAngle - limitingAngle) / (360f - 2 * limitingAngle)
-                             onValueChange(percent)
-                             true
-                         } else {
-                             false
-                         }
-                     }
+                    android.view.MotionEvent.ACTION_DOWN,
+                    android.view.MotionEvent.ACTION_MOVE -> {
+                        if (angle in -limitingAngle..limitingAngle) {
+                            val fixedAngle = if (angle in -180f..-limitingAngle) {
+                                360f + angle
+                            } else {
+                                angle
+                            }
+                            rotation = fixedAngle
+                            val percent = (fixedAngle - limitingAngle) / (360f - 2 * limitingAngle)
+                            onValueChange(percent)
+                            true
+                        } else {
+                            false
+                        }
+                    }
                 }
                 false
             }
+            .rotate()
     )
 }
