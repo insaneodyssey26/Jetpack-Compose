@@ -1,12 +1,19 @@
 package com.masum.learning.Learnings
 
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.rotate
+import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInteropFilter
 import androidx.compose.ui.layout.boundsInWindow
 import androidx.compose.ui.layout.onGloballyPositioned
@@ -21,7 +28,24 @@ fun VolumeBar(
     activeBars: Int = 0,
     totalBars: Int = 10
 ) {
-    
+    BoxWithConstraints(
+        contentAlignment = Alignment.Center,
+        modifier = modifier
+    ) {
+        var barWidth = remember {
+            constraints.maxWidth / (2f * totalBars)
+        }
+        Canvas(modifier = modifier) {
+            for (i in 0 until totalBars) {
+                drawRoundRect(
+                    color = if (i in 0..activeBars) Color.Green else Color.DarkGray,
+                    topLeft = Offset(i * 2 * barWidth + barWidth + 2f, 0f),
+                    size = Size(barWidth, constraints.maxHeight.toFloat()),
+                    cornerRadius = CornerRadius(0f)
+                )
+            }
+        }
+    }
 }
 @Composable
 fun MusicKnob (
