@@ -1,9 +1,15 @@
 package com.masum.learning.Learnings
 
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.boundsInWindow
+import androidx.compose.ui.layout.onGloballyPositioned
+import androidx.compose.ui.res.painterResource
+import com.masum.learning.R
 
 @Composable
 fun MusicKnob (
@@ -23,4 +29,15 @@ fun MusicKnob (
     var centerY by remember {
         mutableStateOf(0f)
     }
+    Image(painter = painterResource(
+        R.drawable.music_knob),
+        contentDescription = "Music Knob",
+        modifier = modifier
+            .fillMaxSize()
+            .onGloballyPositioned {
+                val windowBounds = it.boundsInWindow()
+                centerX = windowBounds.size.width / 2f
+                centerY = windowBounds.size.height / 2f
+            }
+    )
 }
