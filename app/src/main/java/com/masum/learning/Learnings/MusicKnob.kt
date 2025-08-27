@@ -23,6 +23,9 @@ fun MusicKnob (
     var rotation by remember {
         mutableStateOf(limitingAngle)
     }
+    var touchX by remember {
+        mutableStateOf(0f)
+    }
     var touchY by remember {
         mutableStateOf(0f)
     }
@@ -46,6 +49,25 @@ fun MusicKnob (
                 touchX = event.x
                 touchY = event.y
                 val angle = -atan2(centerX - touchX, centerY - touchY) * (180f / PI).toFloat()
+                when (event.action) {
+                     android.view.MotionEvent.ACTION_DOWN,
+                     android.view.MotionEvent.ACTION_MOVE -> {
+                         if (angle in -limitingAngle..limitingAngle) {
+                             val fixedAngle = if (angle in -180f..-limitingAngle) {
+                                    360f + angle
+                                } else {
+                                    angle
+                             }
+                             rotation = fixedAngle
+                                val percent = (fixedAngle - limitingAngle) / (360f - 2 * limitingAngle)
+                             onValueChange(percent)
+                             true
+                         } else {
+                             false
+                         }
+                     }
+                }
+                false
             }
     )
 }
