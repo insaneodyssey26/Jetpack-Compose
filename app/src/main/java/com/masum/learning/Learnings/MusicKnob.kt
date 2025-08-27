@@ -11,6 +11,7 @@ import androidx.compose.ui.layout.boundsInWindow
 import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.res.painterResource
 import com.masum.learning.R
+import kotlin.math.PI
 import kotlin.math.atan2
 
 @Composable
@@ -44,7 +45,7 @@ fun MusicKnob (
             .pointerInteropFilter { event ->
                 touchX = event.x
                 touchY = event.y
-                val angle = -atan2(centerX - touchX, centerY - touchY)
+                val angle = -atan2(centerX - touchX, centerY - touchY) * (180f / PI).toFloat()
             }
     )
 }
