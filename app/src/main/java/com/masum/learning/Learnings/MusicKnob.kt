@@ -6,6 +6,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.input.pointer.pointerInteropFilter
 import androidx.compose.ui.layout.boundsInWindow
 import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.res.painterResource
@@ -38,6 +39,10 @@ fun MusicKnob (
                 val windowBounds = it.boundsInWindow()
                 centerX = windowBounds.size.width / 2f
                 centerY = windowBounds.size.height / 2f
+            }
+            .pointerInteropFilter { event ->
+                touchX = event.x
+                touchY = event.y
             }
     )
 }
