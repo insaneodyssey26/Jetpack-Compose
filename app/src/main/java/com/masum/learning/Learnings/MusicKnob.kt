@@ -102,6 +102,6 @@ fun MusicKnob (
                 }
                 false
             }
-            .rotate()
+            .rotate(rotation)
     )
 }
