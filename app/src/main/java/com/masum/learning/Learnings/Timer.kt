@@ -38,7 +38,7 @@ fun Timer(
     inactiveBarColor: Color,
     activeBarColor: Color,
     modifier: Modifier = Modifier,
-    initialValue: Float = 0f,
+    initialValue: Float = 1f,
     strokeWidth: Dp = 5.dp
 ) {
     var size by remember {
