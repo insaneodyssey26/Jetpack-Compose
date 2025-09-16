@@ -58,6 +58,14 @@ fun Timer(
                 size = Size(size.width.toFloat(), size.height.toFloat()),
                 style = Stroke(strokeWidth.toPx(), cap = StrokeCap.Round)
             )
+            drawArc(
+                color = activeBarColor,
+                startAngle = -215f,
+                sweepAngle = 250f * value,
+                useCenter = false,
+                size = Size(size.width.toFloat(), size.height.toFloat()),
+                style = Stroke(strokeWidth.toPx(), cap = StrokeCap.Round)
+            )
         }
     }
 }
