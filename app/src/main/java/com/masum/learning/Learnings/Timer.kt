@@ -120,7 +120,7 @@ fun Timer(
             modifier = Modifier
                 .align(Alignment.BottomCenter),
             colors = ButtonDefaults.buttonColors(
-                backgroundColor = if (!isTimerRunning || currentTime == 0L) Color.Green else Color.Red
+                containerColor = if (!isTimerRunning || currentTime == 0L) Color.Green else Color.Red
             )
         ) {
             Text (
