@@ -97,7 +97,15 @@ fun Timer(
             color = Color.White
         )
         Button(
-            onClick = { },
+            onClick = {
+                if (currentTime <= 0L) {
+                    currentTime = totalTime
+                    isTimerRunning = true
+                }
+                    else {
+                        isTimerRunning = !isTimerRunning
+                }
+            },
             modifier = Modifier
                 .align(Alignment.BottomCenter),
             colors = ButtonDefaults.buttonColors(
