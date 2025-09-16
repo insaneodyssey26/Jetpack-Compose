@@ -3,6 +3,10 @@ package com.masum.learning.Learnings
 import androidx.compose.ui.graphics.Color
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.Box
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonColors
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -16,10 +20,11 @@ import androidx.compose.ui.graphics.PointMode
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.layout.onSizeChanged
-import androidx.compose.ui.text.font.FontVariation.width
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import kotlin.math.PI
 import kotlin.math.cos
 import kotlin.math.sin
@@ -52,7 +57,7 @@ fun Timer(
             .onSizeChanged {
                 size = it
             }
-    ){
+    ) {
         Canvas(
             modifier = modifier
         ) {
@@ -72,9 +77,9 @@ fun Timer(
                 size = Size(size.width.toFloat(), size.height.toFloat()),
                 style = Stroke(strokeWidth.toPx(), cap = StrokeCap.Round)
             )
-            val center = Offset(size.width /2f, size.height /2f)
-            val beta = (250f * value + 145f) * (PI/180f).toFloat()
-            val radius = size.width /2f
+            val center = Offset(size.width / 2f, size.height / 2f)
+            val beta = (250f * value + 145f) * (PI / 180f).toFloat()
+            val radius = size.width / 2f
             val sideA = cos(beta) * radius
             val sideB = sin(beta) * radius
             drawPoints(
@@ -83,6 +88,26 @@ fun Timer(
                 color = handleColor,
                 strokeWidth = (strokeWidth * 3f).toPx(),
                 cap = StrokeCap.Round
+            )
+        }
+        Text(
+            text = (currentTime / 1000L).toString(),
+            fontSize = 44.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.White
+        )
+        Button(
+            onClick = { },
+            modifier = Modifier
+                .align(Alignment.BottomCenter),
+            colors = ButtonDefaults.buttonColors(
+                backgroundColor = if (!isTimerRunning || currentTime == 0L) Color.Green else Color.Red
+            )
+        ) {
+            Text (
+                text = if (isTimerRunning && currentTime != 0L) "Stop"
+                else if (currentTime == 0L) "Reset"
+                else "Start",
             )
         }
     }
