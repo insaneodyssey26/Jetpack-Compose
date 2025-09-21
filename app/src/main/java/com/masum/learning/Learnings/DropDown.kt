@@ -3,6 +3,7 @@ package com.masum.learning.Learnings
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -30,6 +31,7 @@ import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.TransformOrigin
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
@@ -40,16 +42,25 @@ fun MainDropDown(modifier: Modifier = Modifier) {
         color = Color(0xFF101010),
         modifier = Modifier.fillMaxSize()
     ){
-        DropDownMenu(
-            text = "Masum",
-            modifier = Modifier.padding(50.dp)
-        ) {
-            Text(text = "Revealed",
-                modifier = Modifier.fillMaxWidth()
-                    .height(100.dp)
-                    .background(Color.Green)
-            )
-        }
+            DropDownMenu(
+                text = "Masum",
+                modifier = Modifier.padding(50.dp)
+            ) {
+                Box (
+                    contentAlignment = Alignment.Center,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .background(Color.Green)
+                        .height(100.dp)
+                ){
+                    Text(text = "Revealed",
+                        fontWeight = FontWeight.Bold,
+                        fontSize = 20.sp,
+                    )
+                }
+
+            }
+
     }
 }
 @Composable
