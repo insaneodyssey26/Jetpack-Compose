@@ -23,4 +23,8 @@ fun DropDownMenu (
         targetValue = if(isOpened) 1f else 0f,
         animationSpec = tween (durationMillis = 300)
     )
+    val rotateX = animateFloatAsState(
+        targetValue = if(isOpened) 0f else -90f,
+        animationSpec = tween (durationMillis = 300)
+    )
 }
