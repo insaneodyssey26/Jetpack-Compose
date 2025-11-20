@@ -1,7 +1,7 @@
 
 // These are imported codes from my another package, so lots of errors are here. But these are just for basic logic understanding.
 
-package com.masum.learning.Android_CodeLabs.Old
+package com.masum.learning.Android_CodeLabs.Unit1_Old
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
