@@ -1,9 +1,8 @@
-package com.masum.learning.Learnings
+package com.masum.learning.Philip_Lackner
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -72,19 +71,23 @@ fun DropDownMenu (
 ) {
     var isOpened by remember {
         mutableStateOf(opened)
+    // This represents the state of the drop down menu whether it's already opened or not
     }
     val alpha = animateFloatAsState(
         targetValue = if(isOpened) 1f else 0f,
         animationSpec = tween (durationMillis = 300)
+        // The main animation that makes the drop down menu appear smoothly, if opened then position is 1f otherwise 0f
     )
     val rotateX = animateFloatAsState(
         targetValue = if(isOpened) 0f else -90f,
         animationSpec = tween (durationMillis = 300)
+        // This is the virtual animation that makes the drop down menu rotate on X axis, if opened then position is 0f otherwise -90f
     )
     Column (
         modifier = modifier
             .fillMaxWidth()
     ){
+        // The main composable design starts here
         Row (
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically,
@@ -94,7 +97,7 @@ fun DropDownMenu (
             Text(
                 text = text,
                 color = Color.White,
-                fontSize = 16.sp
+                fontSize = 16.sp  // The header text 
             )
             Icon(
                 imageVector = Icons.Default.ArrowDropDown,
@@ -122,3 +125,4 @@ fun DropDownMenu (
         }
     }
 }
+

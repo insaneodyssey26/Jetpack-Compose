@@ -1,4 +1,4 @@
-package com.masum.learning.Learnings.ViewModels.derived_state_of
+package com.masum.learning.Philip_Lackner.ViewModels.derived_state_of
 
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text

@@ -1,4 +1,4 @@
-package com.masum.learning.Learnings.ViewModels.disposable_effect
+package com.masum.learning.Philip_Lackner.ViewModels.disposable_effect
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect

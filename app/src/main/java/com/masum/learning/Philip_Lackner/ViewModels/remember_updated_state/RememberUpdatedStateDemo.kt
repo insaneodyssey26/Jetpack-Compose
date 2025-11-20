@@ -1,4 +1,4 @@
-package com.masum.learning.Learnings.ViewModels.remember_updated_state
+package com.masum.learning.Philip_Lackner.ViewModels.remember_updated_state
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect

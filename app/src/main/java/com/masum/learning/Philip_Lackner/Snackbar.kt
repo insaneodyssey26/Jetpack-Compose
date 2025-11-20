@@ -1,4 +1,4 @@
-package com.masum.learning.Learnings
+package com.masum.learning.Philip_Lackner
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

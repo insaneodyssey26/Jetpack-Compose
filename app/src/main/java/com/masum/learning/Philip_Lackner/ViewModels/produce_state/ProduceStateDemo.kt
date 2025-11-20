@@ -1,9 +1,8 @@
-package com.masum.learning.Learnings.ViewModels.produce_state
+package com.masum.learning.Philip_Lackner.ViewModels.produce_state
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
 import androidx.compose.runtime.produceState
-import androidx.compose.ui.Modifier
 import kotlinx.coroutines.delay
 
 @Composable

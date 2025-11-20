@@ -1,4 +1,4 @@
-package com.masum.learning.Learnings.ViewModels.side_effect
+package com.masum.learning.Philip_Lackner.ViewModels.side_effect
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect

@@ -1,4 +1,4 @@
-package com.masum.learning.Learnings.ViewModels.remember_coroutine_scope
+package com.masum.learning.Philip_Lackner.ViewModels.remember_coroutine_scope
 
 import androidx.compose.material3.Button
 import androidx.compose.runtime.Composable

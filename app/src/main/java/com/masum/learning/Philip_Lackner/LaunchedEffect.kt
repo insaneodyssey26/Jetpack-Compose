@@ -1,4 +1,4 @@
-package com.masum.learning.Learnings
+package com.masum.learning.Philip_Lackner
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect

@@ -1,4 +1,4 @@
-package com.masum.learning.Learnings.ViewModels.launched_effect
+package com.masum.learning.Philip_Lackner.ViewModels.launched_effect
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
