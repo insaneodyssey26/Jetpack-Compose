@@ -36,8 +36,7 @@ fun DiceWithButtonAndImage(
         else -> R.drawable.dice_6
     }
     Column( // arrange items in a column
-        modifier = modifier,
-        horizontalAlignment = Alignment.CenterHorizontally
+        modifier = modifier, horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(
             painterResource(imageResource), // display the dice image from previously used value (imageResource)
