@@ -1,5 +1,8 @@
 <resources>
+<!--    Dice Roller-->
     <string name="roll">Roll</string>
+
+<!--    Lemonade Maker-->
     <string name="tap_lemon_tree">Tap the lemon tree to select a lemon</string>
     <string name="squeeze_lemon">Squeeze the lemon to extract juice</string>
     <string name="drink_lemonade">Drink the lemonade</string>
@@ -8,4 +11,10 @@
     <string name="lemon">Lemon</string>
     <string name="lemonade">Glass Of Lemonade</string>
     <string name="empty_glass">Empty Glass</string>
+
+<!--    Tip Calculator-->
+        <string name="app_name">Tip Time</string>
+        <string name="calculate_tip">Calculate Tip</string>
+        <string name="bill_amount">Bill Amount</string>
+        <string name="tip_amount">Tip Amount: %s</string>
 </resources>
