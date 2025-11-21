@@ -50,25 +50,40 @@ fun Lemonade(
         4 -> R.string.empty_glass
         else -> R.string.tap_lemon_tree
     }
-
     Column(
         modifier = modifier,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Image(
-            painter = painterResource(imageResource),
-            contentDescription = "Lemonade Step",
-            modifier = Modifier
-                .background(Lemonadebg, shape = RoundedCornerShape(30.dp))
-                .size(190.dp)
-                .clickable {
-                    currentStep = if (currentStep < 4) currentStep + 1 else 1
-                }
-        )
-        Spacer(modifier = Modifier.padding(12.dp))
-        Text(
-            fontSize = 16.sp,
-            text = stringResource(textResource)
+        LemonStep(
+            imageRes = imageResource,
+            textRes = textResource,
+            onClick = {
+                currentStep = if (currentStep < 4) currentStep + 1 else 1
+            }
         )
     }
 }
+
+@Composable
+fun LemonStep(
+    imageRes: Int,
+    textRes: Int,
+    onClick: () -> Unit
+) {
+    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        Image(
+            painter = painterResource(imageRes),
+            contentDescription = stringResource(textRes),
+            modifier = Modifier
+                .background(Lemonadebg, shape = RoundedCornerShape(30.dp))
+                .size(190.dp)
+                .clickable { onClick() }
+        )
+        Spacer(modifier = Modifier.padding(12.dp))
+        Text(
+            text = stringResource(textRes),
+            fontSize = 16.sp
+        )
+    }
+}
+
