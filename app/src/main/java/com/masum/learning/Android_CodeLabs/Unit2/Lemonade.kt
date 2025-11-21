@@ -34,6 +34,7 @@ fun Lemonade(
         .wrapContentSize(Alignment.Center)
 ) {
     var currentStep by remember { mutableStateOf(1) }
+    var squeezeCount by remember { mutableStateOf(0) }
 
     val imageResource = when (currentStep) {
         1 -> R.drawable.lemon_tree
@@ -58,7 +59,20 @@ fun Lemonade(
             imageRes = imageResource,
             textRes = textResource,
             onClick = {
-                currentStep = if (currentStep < 4) currentStep + 1 else 1
+                when (currentStep) {
+                    1 -> {
+                        currentStep = 2
+                        squeezeCount = (2..4).random()
+                    }
+                    2 -> {
+                        squeezeCount--
+                        if (squeezeCount == 0) {
+                            currentStep = 3
+                        }
+                    }
+                    3 -> currentStep = 4
+                    4 -> currentStep = 1
+                }
             }
         )
     }
