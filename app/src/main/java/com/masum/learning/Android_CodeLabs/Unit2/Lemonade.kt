@@ -18,8 +18,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -33,45 +31,45 @@ fun Lemonade(
         .fillMaxSize()
         .wrapContentSize(Alignment.Center)
 ) {
-    var currentStep by remember { mutableStateOf(1) }
-    var squeezeCount by remember { mutableStateOf(0) }
+    var currentStep by remember { mutableStateOf(1) }  // state to determine the current step
+    var squeezeCount by remember { mutableStateOf(0) } // state to count squeezes needed
 
-    val imageResource = when (currentStep) {
-        1 -> R.drawable.lemon_tree
-        2 -> R.drawable.lemon_squeeze
-        3 -> R.drawable.lemon_drink
-        4 -> R.drawable.lemon_restart
-        else -> R.drawable.lemon_tree
+    val imageResource = when (currentStep) { // select image based on current step
+        1 -> R.drawable.lemon_tree // step 1: lemon tree
+        2 -> R.drawable.lemon_squeeze // step 2: squeezing lemon
+        3 -> R.drawable.lemon_drink // step 3: drinking lemonade
+        4 -> R.drawable.lemon_restart // step 4: empty glass
+        else -> R.drawable.lemon_tree // default to lemon tree
     }
 
-    val textResource = when (currentStep) {
-        1 -> R.string.tap_lemon_tree
-        2 -> R.string.squeeze_lemon
-        3 -> R.string.drink_lemonade
-        4 -> R.string.empty_glass
-        else -> R.string.tap_lemon_tree
+    val textResource = when (currentStep) { // select text based on current step
+        1 -> R.string.tap_lemon_tree // step 1 : tap lemon tree
+        2 -> R.string.squeeze_lemon // step 2 : squeeze lemon
+        3 -> R.string.drink_lemonade // step 3 : drink lemonade
+        4 -> R.string.empty_glass // step 4 : empty glass
+        else -> R.string.tap_lemon_tree // default to tap lemon tree
     }
     Column(
         modifier = modifier,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         LemonStep(
-            imageRes = imageResource,
-            textRes = textResource,
+            imageRes = imageResource, // pass selected image resource
+            textRes = textResource, // pass selected text resource
             onClick = {
-                when (currentStep) {
-                    1 -> {
-                        currentStep = 2
-                        squeezeCount = (2..4).random()
+                when (currentStep) { // handle click based on current step
+                    1 -> { // when tapping the lemon tree, move to squeezing step
+                        currentStep = 2 // move to step 2
+                        squeezeCount = (2..4).random() // random squeezes between 2 and 4
                     }
-                    2 -> {
-                        squeezeCount--
-                        if (squeezeCount == 0) {
-                            currentStep = 3
+                    2 -> { // when squeezing the lemon
+                        squeezeCount-- // decrement squeeze count, because one squeeze is done
+                        if (squeezeCount == 0) { // if all squeezes are done
+                            currentStep = 3 // move to drinking step
                         }
                     }
-                    3 -> currentStep = 4
-                    4 -> currentStep = 1
+                    3 -> currentStep = 4 // when drinking lemonade, move to empty glass step
+                    4 -> currentStep = 1 // when tapping empty glass, restart to lemon tree
                 }
             }
         )
@@ -79,23 +77,23 @@ fun Lemonade(
 }
 
 @Composable
-fun LemonStep(
-    imageRes: Int,
-    textRes: Int,
-    onClick: () -> Unit
+fun LemonStep( // this composable displays the image and text for each step, basically the UI for each step
+    imageRes: Int, // image resource id passed as parameter
+    textRes: Int, // text resource id passed as parameter
+    onClick: () -> Unit // lambda function to handle click events
 ) {
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
         Image(
-            painter = painterResource(imageRes),
-            contentDescription = stringResource(textRes),
+            painter = painterResource(imageRes), // load image from resources based on imageRes
+            contentDescription = stringResource(textRes), // content description for accessibility
             modifier = Modifier
                 .background(Lemonadebg, shape = RoundedCornerShape(30.dp))
                 .size(190.dp)
-                .clickable { onClick() }
+                .clickable { onClick() } // handle click events by invoking onClick lambda
         )
         Spacer(modifier = Modifier.padding(12.dp))
         Text(
-            text = stringResource(textRes),
+            text = stringResource(textRes), // load text from resources based on textRes
             fontSize = 16.sp
         )
     }
