@@ -22,8 +22,11 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.masum.learning.Android_CodeLabs.Unit2.LemonStep
 import com.masum.learning.R
-import com.masum.learning.ui.theme.Lemonadebg
+import com.masum.learning.ui.theme.LemonadeBg
+
+//import com.masum.learning.ui.theme.Lemonadebg
 
 @Composable
 fun Lemonade(
@@ -87,7 +90,7 @@ fun LemonStep( // this composable displays the image and text for each step, bas
             painter = painterResource(imageRes), // load image from resources based on imageRes
             contentDescription = stringResource(textRes), // content description for accessibility
             modifier = Modifier
-                .background(Lemonadebg, shape = RoundedCornerShape(30.dp))
+                .background(LemonadeBg, shape = RoundedCornerShape(30.dp))
                 .size(190.dp)
                 .clickable { onClick() } // handle click events by invoking onClick lambda
         )
