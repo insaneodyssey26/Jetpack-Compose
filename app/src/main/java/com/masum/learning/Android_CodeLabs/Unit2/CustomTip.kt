@@ -3,16 +3,19 @@ package com.masum.learning.Android_CodeLabs.Unit2
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawingPadding
 import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
@@ -60,7 +63,9 @@ fun TipTimeLayout() {
             ),
             value = amountInput,
             onValueChanged = { amountInput = it },
-            modifier = Modifier.padding(bottom = 32.dp).fillMaxWidth()
+            modifier = Modifier
+                .padding(bottom = 32.dp)
+                .fillMaxWidth()
         )
         EditNumberField(
             label = R.string.how_was_the_service,
@@ -70,7 +75,9 @@ fun TipTimeLayout() {
             ),
             value = tipInput,
             onValueChanged = { tipInput = it },
-            modifier = Modifier.padding(bottom = 32.dp).fillMaxWidth()
+            modifier = Modifier
+                .padding(bottom = 32.dp)
+                .fillMaxWidth()
         )
         Text(
             text = stringResource(R.string.tip_amount, tip),
@@ -101,4 +108,28 @@ fun EditNumberField(
 private fun calculateTip(amount: Double, tipPercent: Double = 15.0): String {
     val tip = tipPercent / 100 * amount
     return NumberFormat.getCurrencyInstance().format(tip)
+}
+
+@Composable
+fun RoundTip (
+    roundUp : Boolean,
+    onRoundUpChanged : (Boolean) ->Unit,
+    modifier: Modifier = Modifier
+) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth(),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Text(
+            text = stringResource(R.string.round_up_tip)
+        )
+        Switch(
+            checked = roundUp,
+            onCheckedChange = onRoundUpChanged,
+            modifier = Modifier
+                .fillMaxWidth()
+                .wrapContentWidth(Alignment.End)
+        )
+    }
 }
