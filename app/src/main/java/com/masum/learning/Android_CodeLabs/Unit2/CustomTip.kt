@@ -36,6 +36,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import com.masum.learning.R
 import java.text.NumberFormat
+import androidx.compose.ui.platform.testTag
 
 @Composable
 fun TipTimeLayout() {
@@ -73,6 +74,7 @@ fun TipTimeLayout() {
             modifier = Modifier
                 .padding(bottom = 32.dp)
                 .fillMaxWidth()
+                .testTag("bill_amount")
         )
         EditNumberField(
             label = R.string.how_was_the_service,
@@ -86,6 +88,7 @@ fun TipTimeLayout() {
             modifier = Modifier
                 .padding(bottom = 32.dp)
                 .fillMaxWidth()
+                .testTag("tip_percentage")
         )
         RoundTip(
             roundUp = roundUp,
@@ -94,7 +97,8 @@ fun TipTimeLayout() {
         )
         Text(
             text = stringResource(R.string.tip_amount, tip),
-            style = MaterialTheme.typography.displaySmall
+            style = MaterialTheme.typography.displaySmall,
+            modifier = Modifier.testTag("tip_amount")
         )
         Spacer(modifier = Modifier.height(150.dp))
     }
