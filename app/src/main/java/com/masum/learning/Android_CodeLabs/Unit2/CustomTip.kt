@@ -2,6 +2,7 @@ package com.masum.learning.Android_CodeLabs.Unit2
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
+import androidx.annotation.VisibleForTesting
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -124,7 +125,21 @@ fun EditNumberField(
     )
 }
 
-private fun calculateTip(
+//private fun calculateTip( This function will work as expected
+//    amount: Double,
+//    tipPercent: Double = 15.0,
+//    roundUp: Boolean
+//): String {
+//    var tip = tipPercent / 100 * amount
+//    if (roundUp) {
+//        tip = kotlin.math.ceil(tip)
+//    }
+//    return NumberFormat.getCurrencyInstance().format(tip)
+//}
+
+// This is the same function as above, but we will implement testing for this function
+@VisibleForTesting
+internal fun calculateTip(
     amount: Double,
     tipPercent: Double = 15.0,
     roundUp: Boolean
