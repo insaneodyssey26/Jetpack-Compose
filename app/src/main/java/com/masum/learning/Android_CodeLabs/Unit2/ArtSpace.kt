@@ -4,6 +4,7 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
@@ -24,8 +25,12 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.ui.graphics.Color
 import com.masum.learning.R
+import com.masum.learning.ui.theme.ArtButtons
 
 @Composable
 fun ArtSpaceApp(
@@ -35,13 +40,7 @@ fun ArtSpaceApp(
         modifier = modifier
             .fillMaxSize()
     ) {
-//        Box(
-//            modifier = Modifier
-//                .fillMaxSize(),
-//            contentAlignment = Alignment.Center
-//        ) {
             Column(
-             //   horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center,
                 modifier = Modifier.weight(1f)
             ) {
@@ -64,7 +63,7 @@ fun ArtSpaceApp(
                         )
                     }
                 }
-                Spacer(modifier = Modifier.padding(70.dp))
+                Spacer(modifier = Modifier.padding(50.dp))
                 val name = stringResource(R.string.author_name)
                 val year = stringResource(R.string.year)
                 Text(
@@ -75,10 +74,12 @@ fun ArtSpaceApp(
                 )
                 Text(
                     text = buildAnnotatedString {
-                        withStyle(style = SpanStyle(
-                            fontWeight = FontWeight.Bold,
-                            fontSize = 20.sp
-                        )) {
+                        withStyle(
+                            style = SpanStyle(
+                                fontWeight = FontWeight.Bold,
+                                fontSize = 20.sp
+                            )
+                        ) {
                             append(name)
                         }
                         append(" ")
@@ -88,7 +89,49 @@ fun ArtSpaceApp(
                     modifier = Modifier
                         .padding(start = 20.dp, top = 5.dp)
                 )
-         //   }
-        }
+                Spacer(modifier = Modifier.padding(bottom = 20.dp))
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                ) {
+                    Button(
+                        enabled = false,
+                        onClick = {  },
+                        colors = ButtonDefaults.buttonColors(
+//                            containerColor = Color.Magenta,
+//                            contentColor = Color.White,
+                            disabledContainerColor = ArtButtons,
+                            disabledContentColor = Color.White
+
+                        ),
+                        modifier = Modifier
+                            .padding(start = 20.dp, top = 50.dp)
+                            .weight(1f)
+                    ) {
+                        Text(
+                            text = "Previous"
+                        )
+                    }
+                    Spacer(modifier = Modifier.padding(start = 50.dp))
+                    Button(
+                        enabled = false,
+                        onClick = {  },
+                        colors = ButtonDefaults.buttonColors(
+//                            containerColor = Color.Magenta,
+//                            contentColor = Color.White,
+                            disabledContainerColor = ArtButtons,
+                            disabledContentColor = Color.White
+
+                        ),
+                        modifier = Modifier
+                            .padding(end = 20.dp, top = 50.dp)
+                            .weight(1f)
+                    ) {
+                        Text(
+                            text = "Next"
+                        )
+                    }
+                }
+            }
     }
 }

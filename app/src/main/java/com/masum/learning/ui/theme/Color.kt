@@ -11,3 +11,4 @@ val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
 val LemonadeBg = Color(0xffd2e7da)
+val ArtButtons = Color(0xff495d92)
