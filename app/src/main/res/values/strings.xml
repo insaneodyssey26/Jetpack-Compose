@@ -19,4 +19,8 @@
         <string name="tip_amount">Tip Amount: %s</string>
         <string name="how_was_the_service">Tip Percentage</string>
         <string name="round_up_tip">Round up tip?</string>
+
+<!--    Art Space App-->
+    <string name="author_name"> - Masum</string>
+    <string name="year">(2006)</string>
 </resources>
