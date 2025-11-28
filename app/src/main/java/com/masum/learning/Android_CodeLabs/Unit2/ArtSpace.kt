@@ -1,5 +1,6 @@
 package com.masum.learning.Android_CodeLabs.Unit2
 
+import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -62,14 +63,16 @@ fun ArtSpaceApp(
                     elevation = CardDefaults.cardElevation(defaultElevation = 10.dp)
                 ) {
                     Box(modifier = Modifier.padding(16.dp)) {
-                        Image(
-                            painter = painterResource(artworkList[currentImage]),
-                            contentDescription = "Test Image",
-                            contentScale = ContentScale.Crop,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .aspectRatio(1f)
-                        )
+                        Crossfade(targetState = artworkList[currentImage]) { resId ->
+                            Image(
+                                painter = painterResource(resId),
+                                contentDescription = "Test Image",
+                                contentScale = ContentScale.Crop,
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .aspectRatio(1f)
+                            )
+                        }
                     }
                 }
                 Spacer(modifier = Modifier.padding(50.dp))
