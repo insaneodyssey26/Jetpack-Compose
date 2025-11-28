@@ -31,6 +31,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.Color
 import com.masum.learning.R
 import com.masum.learning.ui.theme.ArtButtons
@@ -43,7 +44,7 @@ fun ArtSpaceApp(
         R.drawable.test_image,
         R.drawable.test_image2,
     )
-    val currentImage by remember { mutableStateOf(0) }
+    var currentImage by remember { mutableStateOf(0) }
     Column(
         modifier = modifier
             .fillMaxSize()
@@ -62,7 +63,7 @@ fun ArtSpaceApp(
                 ) {
                     Box(modifier = Modifier.padding(16.dp)) {
                         Image(
-                            painter = painterResource(R.drawable.test_image),
+                            painter = painterResource(artworkList[currentImage]),
                             contentDescription = "Test Image",
                             contentScale = ContentScale.Crop,
                             modifier = Modifier
@@ -104,8 +105,14 @@ fun ArtSpaceApp(
                         .fillMaxWidth()
                 ) {
                     Button(
-                        enabled = false,
-                        onClick = {  },
+                        enabled = true,
+                        onClick = {
+                            currentImage = if (currentImage - 1 < 0) {
+                                artworkList.size - 1
+                            } else {
+                                currentImage - 1
+                            }
+                        },
                         colors = ButtonDefaults.buttonColors(
 //                            containerColor = Color.Magenta,
 //                            contentColor = Color.White,
@@ -123,8 +130,10 @@ fun ArtSpaceApp(
                     }
                     Spacer(modifier = Modifier.padding(start = 50.dp))
                     Button(
-                        enabled = false,
-                        onClick = {  },
+                        enabled = true,
+                        onClick = {
+                            currentImage = (currentImage + 1) % artworkList.size
+                        },
                         colors = ButtonDefaults.buttonColors(
 //                            containerColor = Color.Magenta,
 //                            contentColor = Color.White,
