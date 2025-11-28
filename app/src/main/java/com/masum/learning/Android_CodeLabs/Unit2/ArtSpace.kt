@@ -28,6 +28,9 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.ui.graphics.Color
 import com.masum.learning.R
 import com.masum.learning.ui.theme.ArtButtons
@@ -36,6 +39,11 @@ import com.masum.learning.ui.theme.ArtButtons
 fun ArtSpaceApp(
     modifier: Modifier = Modifier
 ) {
+    val artworkList = listOf(
+        R.drawable.test_image,
+        R.drawable.test_image2,
+    )
+    val currentImage by remember { mutableStateOf(0) }
     Column(
         modifier = modifier
             .fillMaxSize()
@@ -66,6 +74,7 @@ fun ArtSpaceApp(
                 Spacer(modifier = Modifier.padding(50.dp))
                 val name = stringResource(R.string.author_name)
                 val year = stringResource(R.string.year)
+
                 Text(
                     text = "Just Trying Out Some Stuff To Learn Jetpack Compose",
                     fontSize = 30.sp,
