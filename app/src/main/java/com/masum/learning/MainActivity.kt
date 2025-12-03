@@ -13,7 +13,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             AffirmationList(
-                affirmationList = Datasource().loadAffirmations()
+                affirmationList = Datasource().loadAffirmations() // Load affirmations from the data source
             )
         }
     }

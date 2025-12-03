@@ -21,9 +21,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun AffirmationCard (
+fun AffirmationCard ( // Composable for each affirmation card
     modifier: Modifier = Modifier,
-    affirmation: Affirmation
+    affirmation: Affirmation // Affirmation data object
 ) {
     Card(
         modifier = modifier
@@ -48,16 +48,16 @@ fun AffirmationCard (
 
 @Composable
 fun AffirmationList (
-    affirmationList: List<Affirmation>,
+    affirmationList: List<Affirmation>, // List of affirmation data objects
     modifier: Modifier = Modifier
 ) {
     LazyColumn(
         modifier = Modifier
     ) {
-        items(affirmationList) { affirmation ->
+        items(affirmationList) { affirmation -> // Iterate through each affirmation
             AffirmationCard(
-                affirmation = affirmation,
-                modifier = Modifier.padding(8.dp)
+                affirmation = affirmation, // Pass the affirmation object to the card
+                modifier = Modifier.padding(8.dp) // Add padding around each card
             )
         }
     }
