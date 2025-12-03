@@ -50,6 +50,7 @@ fun AffirmationList (
 ) {
     LazyColumn(
         modifier = Modifier
+            .padding(8.dp)
     ) {
         items(affirmationList) { affirmation -> // Iterate through each affirmation
             AffirmationCard(
