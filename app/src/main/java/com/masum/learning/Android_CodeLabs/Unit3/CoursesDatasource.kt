@@ -3,7 +3,7 @@ package com.masum.learning.Android_CodeLabs.Unit3
 import com.masum.learning.R
 
 object DataSource {
-    val topics = listOf(
+    val courses = listOf(
         Courses(R.string.architecture, 58, R.drawable.architecture),
         Courses(R.string.crafts, 121, R.drawable.crafts),
         Courses(R.string.business, 78, R.drawable.business),
