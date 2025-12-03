@@ -4,7 +4,7 @@ import com.masum.learning.R
 
 // This is the data source class which provides a list of affirmations
 // We are using Affirmation data class to create a list of affirmations
-class Datasource () {
+class AffirmationDatasource () {
     fun loadAffirmations(): List<Affirmation> {
         return listOf <Affirmation> (
             Affirmation(R.string.affirmation1, R.drawable.image1),
