@@ -3,8 +3,6 @@ package com.masum.learning
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.masum.learning.Android_CodeLabs.Unit3.Affirmation
-import com.masum.learning.Android_CodeLabs.Unit3.AffirmationCard
 import com.masum.learning.Android_CodeLabs.Unit3.AffirmationList
 import com.masum.learning.Android_CodeLabs.Unit3.Datasource
 
