@@ -17,7 +17,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import com.masum.learning.R
+import com.masum.learning.ui.theme.WoofTheme
 
 @Composable
 fun WoofApp() {
@@ -77,5 +79,13 @@ fun DogInformation(
         Text(
             text = stringResource(R.string.years_old, dogAge),
         )
+    }
+}
+
+@Preview
+@Composable
+fun WoofDarkThemePreview() {
+    WoofTheme(darkTheme = true) {
+        WoofApp()
     }
 }
