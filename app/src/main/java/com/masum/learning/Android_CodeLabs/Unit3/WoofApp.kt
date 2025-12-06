@@ -2,6 +2,9 @@ package com.masum.learning.Android_CodeLabs.Unit3
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
+import androidx.compose.animation.animateContentSize
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.spring
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -39,18 +42,14 @@ import com.masum.learning.ui.theme.WoofTheme
 
 @Composable
 fun WoofApp() {
-    Scaffold (
-        topBar =
-            {
-                WoofTopBar()
-            }
-    ) { it ->
-        LazyColumn (contentPadding = it){
+    Scaffold(
+        topBar = { WoofTopBar() }
+    ) { padding ->
+        LazyColumn(contentPadding = padding) {
             items(dogs) {
                 DogItem(
                     dog = it,
-                    modifier = Modifier
-                        .padding(dimensionResource(R.dimen.padding_small))
+                    modifier = Modifier.padding(dimensionResource(R.dimen.padding_small))
                 )
             }
         }
@@ -63,32 +62,43 @@ fun DogItem(
     modifier: Modifier = Modifier
 ) {
     var expanded by remember { mutableStateOf(false) }
-    Card(
-        modifier = modifier
-    ) {
-        Row(
-            modifier = modifier
-                .fillMaxWidth()
-                .padding(dimensionResource(R.dimen.padding_small))
-        ) {
-            DogIcon(dog.imageResourceId)
-            DogInformation(dog.name, dog.age)
-            Spacer(modifier = Modifier.weight(1f))
-            DogItemButton(
-                expanded = expanded,
-                onClick = { }
-            )
-        }
-        DogHobby(
-            dog.hobbies,
-            modifier = Modifier
-                .padding(
-                    start = dimensionResource(R.dimen.padding_medium),
-                    top = dimensionResource(R.dimen.padding_small),
-                    end = dimensionResource(R.dimen.padding_medium),
-                    bottom = dimensionResource(R.dimen.padding_medium)
+
+    Card(modifier = modifier) {
+        Column(
+            modifier = Modifier.animateContentSize(
+                animationSpec = spring(
+                    dampingRatio = Spring.DampingRatioNoBouncy,
+                    stiffness = Spring.StiffnessMedium
                 )
-        )
+            )
+        ) {
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(dimensionResource(R.dimen.padding_small))
+            ) {
+                DogIcon(dog.imageResourceId)
+                DogInformation(dog.name, dog.age)
+                Spacer(modifier = Modifier.weight(1f))
+                DogItemButton(
+                    expanded = expanded,
+                    onClick = { expanded = !expanded }
+                )
+            }
+
+            if (expanded) {
+                DogHobby(
+                    dog.hobbies,
+                    modifier = Modifier
+                        .padding(
+                            start = dimensionResource(R.dimen.padding_medium),
+                            top = dimensionResource(R.dimen.padding_small),
+                            end = dimensionResource(R.dimen.padding_medium),
+                            bottom = dimensionResource(R.dimen.padding_medium)
+                        )
+                )
+            }
+        }
     }
 }
 
@@ -98,10 +108,7 @@ private fun DogItemButton(
     onClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
-    IconButton(
-        onClick = onClick,
-        modifier = modifier
-    ) {
+    IconButton(onClick = onClick, modifier = modifier) {
         Icon(
             imageVector = Icons.Filled.ExpandMore,
             contentDescription = stringResource(R.string.expand_button_content_description),
@@ -109,6 +116,7 @@ private fun DogItemButton(
         )
     }
 }
+
 @Composable
 fun DogIcon(
     @DrawableRes dogIcon: Int,
@@ -124,6 +132,7 @@ fun DogIcon(
         contentDescription = null
     )
 }
+
 @Composable
 fun DogInformation(
     @StringRes dogName: Int,
@@ -145,14 +154,12 @@ fun DogInformation(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun WoofTopBar (
+fun WoofTopBar(
     modifier: Modifier = Modifier
 ) {
     CenterAlignedTopAppBar(
         title = {
-            Row(
-                verticalAlignment = Alignment.CenterVertically
-            ) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
                 Image(
                     modifier = Modifier
                         .size(dimensionResource(R.dimen.image_size))
@@ -171,13 +178,11 @@ fun WoofTopBar (
 }
 
 @Composable
-fun DogHobby (
+fun DogHobby(
     @StringRes dogHobby: Int,
     modifier: Modifier = Modifier
 ) {
-    Column(
-        modifier = modifier
-    ) {
+    Column(modifier = modifier) {
         Text(
             text = stringResource(R.string.about),
             style = MaterialTheme.typography.labelSmall
