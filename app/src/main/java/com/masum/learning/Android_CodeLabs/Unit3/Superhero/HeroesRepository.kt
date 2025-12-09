@@ -1,4 +1,4 @@
-package com.masum.learning.Android_CodeLabs.Unit3.Superhero.model
+package com.masum.learning.Android_CodeLabs.Unit3.Superhero
 import com.masum.learning.R
 
 object HeroesRepository {

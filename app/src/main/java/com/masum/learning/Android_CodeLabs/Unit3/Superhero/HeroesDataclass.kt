@@ -1,4 +1,4 @@
-package com.masum.learning.Android_CodeLabs.Unit3.Superhero.model
+package com.masum.learning.Android_CodeLabs.Unit3.Superhero
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
