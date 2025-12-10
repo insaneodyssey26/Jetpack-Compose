@@ -21,6 +21,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import com.masum.learning.ui.theme.TypographySuperHeroes
 
 @Composable
 fun HeroesList (
@@ -31,18 +32,22 @@ fun HeroesList (
         modifier = modifier
     ) {
         itemsIndexed(heroes) { index, hero ->
-
+            SuperheroItems(
+                hero = hero,
+                modifier = Modifier
+                    .padding(horizontal = 16.dp, vertical = 8.dp)
+            )
         }
     }
 }
 
 @Composable
-fun SuperheroIcon (
+fun SuperheroItems (
     hero: Hero,
     modifier: Modifier = Modifier
 ) {
     Card(
-        elevation = CardDefaults.cardElevation(defaultElevation = 5.dp),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
         modifier = modifier
     ) {
         Row(
@@ -57,11 +62,11 @@ fun SuperheroIcon (
             ) {
                 Text(
                     text = stringResource(hero.nameRes),
-                    style = MaterialTheme.typography.displaySmall
+                    style = TypographySuperHeroes.displaySmall
                 )
                 Text(
                     text = stringResource(hero.descriptionRes),
-                    style = MaterialTheme.typography.bodyLarge
+                    style = TypographySuperHeroes.bodyLarge
                 )
             }
             Box(
