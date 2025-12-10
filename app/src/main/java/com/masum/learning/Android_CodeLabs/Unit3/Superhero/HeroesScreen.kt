@@ -26,6 +26,22 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.masum.learning.ui.theme.TypographySuperHeroes
 
+
+@Composable
+fun HeroesApp (
+    modifier: Modifier = Modifier
+) {
+    Scaffold(
+        topBar = {
+            SuperheroTopBar()
+        },
+    ) {
+        HeroesList(
+            heroes = HeroesRepository.heroes,
+            modifier = modifier.padding(it)
+        )
+    }
+}
 @Composable
 fun HeroesList (
     heroes: List<Hero>,

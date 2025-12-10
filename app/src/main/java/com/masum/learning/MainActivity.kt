@@ -10,6 +10,7 @@ import com.masum.learning.Android_CodeLabs.Unit3.CoursesCard
 import com.masum.learning.Android_CodeLabs.Unit3.CoursesGrid
 import com.masum.learning.Android_CodeLabs.Unit3.DataSource
 import com.masum.learning.Android_CodeLabs.Unit3.DataSource.courses
+import com.masum.learning.Android_CodeLabs.Unit3.Superhero.HeroesApp
 import com.masum.learning.Android_CodeLabs.Unit3.Superhero.HeroesList
 import com.masum.learning.Android_CodeLabs.Unit3.Superhero.HeroesRepository.heroes
 import com.masum.learning.Android_CodeLabs.Unit3.WoofApp
@@ -19,9 +20,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            HeroesList(
-                heroes = heroes
-            )
+            HeroesApp()
         }
     }
 }
