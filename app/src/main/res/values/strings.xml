@@ -104,4 +104,18 @@
         <string name="description5">Effortlessly glides in to save the day</string>
         <string name="hero6">Dynamic Yasmine</string>
         <string name="description6">Ability to shift to any form and energize</string>
+    
+<!--    30 Days App-->
+    
+    <string name="days_app_name">30 Days</string>
+    <string name="day1">Day 1</string>
+    <string name="day2">Day 2</string>
+    <string name="day3">Day 3</string>
+    <string name="day4">Day 4</string>
+    <string name="day5">Day 5</string>
+    <string name="day6">Day 6</string>
+    <string name="day7">Day 7</string>
+    <string name="day8">Day 8</string>
+    <string name="day9">Day 9</string>
+    <string name="day10">Day 10</string>
 </resources>
