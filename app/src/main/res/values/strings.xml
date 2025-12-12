@@ -106,16 +106,28 @@
         <string name="description6">Ability to shift to any form and energize</string>
     
 <!--    30 Days App-->
-    
-    <string name="days_app_name">30 Days</string>
-    <string name="day1">Day 1</string>
-    <string name="day2">Day 2</string>
-    <string name="day3">Day 3</string>
-    <string name="day4">Day 4</string>
-    <string name="day5">Day 5</string>
-    <string name="day6">Day 6</string>
-    <string name="day7">Day 7</string>
-    <string name="day8">Day 8</string>
-    <string name="day9">Day 9</string>
-    <string name="day10">Day 10</string>
+
+    <string name="days_app_name">30 Characters</string>
+    <string name="character1">Character 1</string>
+    <string name="character2">Character 2</string>
+    <string name="character3">Character 3</string>
+    <string name="character4">Character 4</string>
+    <string name="character5">Character 5</string>
+    <string name="character6">Character 6</string>
+    <string name="character7">Character 7</string>
+    <string name="character8">Character 8</string>
+    <string name="character9">Character 9</string>
+    <string name="character10">Character 10</string>
+
+    <string name="himeno">Himeno</string>
+    <string name="power">Power</string>
+    <string name="maki">Maki</string>
+    <string name="makima">Makima</string>
+    <string name="marin">Marin</string>
+    <string name="mikasa">Mikasa</string>
+    <string name="mitsuha">Mitsuha</string>
+    <string name="nobara">Nobara</string>
+    <string name="sakura">Sakura</string>
+    <string name="sakurajima">Sakurajima</string>
+
 </resources>
