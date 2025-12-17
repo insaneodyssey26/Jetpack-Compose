@@ -34,7 +34,7 @@ fun EachCard (
     Card (
         elevation = CardDefaults.cardElevation(5.dp),
         modifier = modifier
-            .padding(20.dp)
+            .padding(top = 50.dp, start = 16.dp, end = 16.dp, bottom = 16.dp)
     ) {
         Column (
             modifier = Modifier
@@ -44,13 +44,13 @@ fun EachCard (
                 text = stringResource(characters.characterCount),
                 style = TypographyThirtyDays.displayMedium,
                 modifier = Modifier
-                    .padding(10.dp)
+                    .padding(12.dp)
             )
             Text(
                 text = stringResource(characters.character),
                 style = TypographyThirtyDays.displaySmall,
                 modifier = Modifier
-                    .padding(10.dp)
+                    .padding(12.dp)
             )
             Image(
                 painter = painterResource(characters.image),
@@ -58,10 +58,16 @@ fun EachCard (
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(16.dp)
+                    .padding(12.dp)
                     .shadow(elevation = 200.dp)
                     .clip(RoundedCornerShape(10.dp))
                     .size(200.dp)
+            )
+            Text(
+                text = stringResource(characters.charDescription),
+                style = TypographyThirtyDays.bodyLarge,
+                modifier = Modifier
+                    .padding(12.dp)
             )
         }
     }
