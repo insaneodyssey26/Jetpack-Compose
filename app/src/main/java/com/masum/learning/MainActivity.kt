@@ -12,6 +12,7 @@ import com.masum.learning.Android_CodeLabs.Unit3.DataSource.courses
 import com.masum.learning.Android_CodeLabs.Unit3.Superhero.HeroesApp
 import com.masum.learning.Android_CodeLabs.Unit3.Superhero.HeroesList
 import com.masum.learning.Android_CodeLabs.Unit3.Superhero.HeroesRepository.heroes
+import com.masum.learning.Android_CodeLabs.Unit3.ThirtyDays.CardsWithList
 import com.masum.learning.Android_CodeLabs.Unit3.ThirtyDays.Characters
 import com.masum.learning.Android_CodeLabs.Unit3.ThirtyDays.EachCard
 import com.masum.learning.Android_CodeLabs.Unit3.ThirtyDays.ThirtyDaysRepository
@@ -22,9 +23,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            EachCard(
-                ThirtyDaysRepository.characters[0]
-            )
+            CardsWithList()
         }
     }
 }
