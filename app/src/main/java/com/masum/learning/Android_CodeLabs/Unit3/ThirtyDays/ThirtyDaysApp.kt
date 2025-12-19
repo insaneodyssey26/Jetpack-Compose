@@ -1,5 +1,6 @@
 package com.masum.learning.Android_CodeLabs.Unit3.ThirtyDays
 
+import android.R.attr.onClick
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Column
@@ -16,6 +17,7 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FloatingActionButtonDefaults.elevation
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
@@ -26,6 +28,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.modifier.ModifierLocalModifierNode
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -45,7 +48,8 @@ fun CardsWithList() {
             items(characters) {
                 EachCard(
                     characters = it,
-                    modifier = Modifier.fillMaxWidth()
+                    modifier = Modifier.fillMaxWidth(),
+                    onClick = {  }
                 )
             }
         }
@@ -54,12 +58,14 @@ fun CardsWithList() {
 @Composable
 fun EachCard (
     characters: Characters,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    onClick: () -> Unit = { }
 ) {
     Card (
+        onClick = onClick,
         elevation = CardDefaults.cardElevation(5.dp),
         modifier = modifier
-            .padding(top = 10.dp, start = 16.dp, end = 16.dp, bottom = 16.dp)
+            .padding(top = 10.dp, start = 16.dp, end = 16.dp, bottom = 16.dp),
     ) {
         Column (
             modifier = Modifier
