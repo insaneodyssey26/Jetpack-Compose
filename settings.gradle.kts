@@ -14,4 +14,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Android-Learnings_Compose"
+
 include(":app")
+include(":thirtydays")
