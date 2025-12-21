@@ -12,14 +12,22 @@ import com.masum.learning.Android_CodeLabs.Unit3.DataSource.courses
 import com.masum.learning.Android_CodeLabs.Unit3.Superhero.HeroesApp
 import com.masum.learning.Android_CodeLabs.Unit3.Superhero.HeroesList
 import com.masum.learning.Android_CodeLabs.Unit3.Superhero.HeroesRepository.heroes
-import com.masum.learning.Android_CodeLabs.Unit3.WoofApp
+import com.masum.learning.Android_CodeLabs.Unit3.ThirtyDays.CardsWithList
 import com.masum.learning.ui.theme.WoofTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            AffirmationList(affirmationList = AffirmationDatasource().loadAffirmations())
+            // Switch between different CodeLab apps
+            val currentApp = System.getProperty("codelab.app") ?: "affirmations"
+
+            when (currentApp) {
+                "thirtydays" -> CardsWithList()
+                "superhero" -> HeroesApp()
+                "courses" -> CoursesGrid(coursesList = courses)
+                else -> AffirmationList(affirmationList = AffirmationDatasource().loadAffirmations())
+            }
         }
     }
 }

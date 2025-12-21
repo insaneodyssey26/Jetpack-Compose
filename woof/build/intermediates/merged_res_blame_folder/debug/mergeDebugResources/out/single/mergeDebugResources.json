@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable-xhdpi_ic_woof_logo.png.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-pngs-46:/drawable-xhdpi/ic_woof_logo.png"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable-xxxhdpi_ic_woof_logo.png.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-pngs-46:/drawable-xxxhdpi/ic_woof_logo.png"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable_bella.jpg.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/drawable/bella.jpg"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable-xxhdpi_ic_woof_logo.png.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-pngs-46:/drawable-xxhdpi/ic_woof_logo.png"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable-mdpi_ic_woof_logo.png.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-pngs-46:/drawable-mdpi/ic_woof_logo.png"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable_leroy.jpg.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/drawable/leroy.jpg"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable-anydpi-v24_ic_woof_logo.xml.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-pngs-46:/drawable-anydpi-v24/ic_woof_logo.xml"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable_koda.jpg.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/drawable/koda.jpg"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable_faye.jpg.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/drawable/faye.jpg"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable_lola.jpg.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/drawable/lola.jpg"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.masum.woof-debug-50:/font_cabin_regular.ttf.flat",
+        "source": "com.masum.woof-main-52:/font/cabin_regular.ttf"
+    },
+    {
+        "merged": "com.masum.woof-debug-50:/font_cabin_bold.ttf.flat",
+        "source": "com.masum.woof-main-52:/font/cabin_bold.ttf"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable-hdpi_ic_woof_logo.png.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-pngs-46:/drawable-hdpi/ic_woof_logo.png"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable-ldpi_ic_woof_logo.png.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-pngs-46:/drawable-ldpi/ic_woof_logo.png"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable_frankie.jpg.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/drawable/frankie.jpg"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable_tzeitel.jpg.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/drawable/tzeitel.jpg"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable_moana.jpg.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/drawable/moana.jpg"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/drawable_nox.jpg.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/drawable/nox.jpg"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-debug-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.woof-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]
