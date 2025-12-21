@@ -14,8 +14,10 @@ fun DerivedStateOfDemo () {
     var counter by remember {
         mutableStateOf(0)
     }
-    val counterText by derivedStateOf {
-        "The counter is $counter"
+    val counterText by remember {
+        derivedStateOf {
+            "The counter is $counter"
+        }
     }
     Button (onClick  = {counter++}) {
         Text(text = counterText)

@@ -8,9 +8,9 @@ import kotlinx.coroutines.delay
 @Composable
 fun ProduceStateDemo (countUpTo: Int) : State<Int> {
     return produceState (initialValue = 0) {
-        while (value < countUpTo) {
+        for (i in 1..countUpTo) {
             delay(1000L)
-            value++
-    }
+            value = i
+        }
     }
 }
