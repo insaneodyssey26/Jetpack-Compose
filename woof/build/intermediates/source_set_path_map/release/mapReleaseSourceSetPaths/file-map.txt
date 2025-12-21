@@ -1,0 +1,50 @@
+com.masum.woof-profileinstaller-1.4.0-0 /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/res
+com.masum.woof-activity-compose-1.10.1-1 /home/Masum/.gradle/caches/8.14/transforms/079aa688e2a5cc050acb0d45754674b7/transformed/activity-compose-1.10.1/res
+com.masum.woof-core-1.15.0-2 /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/res
+com.masum.woof-ui-tooling-preview-release-3 /home/Masum/.gradle/caches/8.14/transforms/0b34679c6779fe4634dd1fac74526572/transformed/ui-tooling-preview-release/res
+com.masum.woof-tracing-1.2.0-4 /home/Masum/.gradle/caches/8.14/transforms/1adc5574415eb5a8c0f465622b26c9cc/transformed/tracing-1.2.0/res
+com.masum.woof-foundation-layout-release-5 /home/Masum/.gradle/caches/8.14/transforms/1d25a77968dbc9786508871c7f9ad21d/transformed/foundation-layout-release/res
+com.masum.woof-annotation-experimental-1.4.1-6 /home/Masum/.gradle/caches/8.14/transforms/318dc119b3c270feba91126e5d678a28/transformed/annotation-experimental-1.4.1/res
+com.masum.woof-core-viewtree-1.0.0-7 /home/Masum/.gradle/caches/8.14/transforms/320401d967bbc8c1884c89fd3e835d5a/transformed/core-viewtree-1.0.0/res
+com.masum.woof-material-ripple-release-8 /home/Masum/.gradle/caches/8.14/transforms/34767b51ce451c1065ba102c7e525f16/transformed/material-ripple-release/res
+com.masum.woof-ui-release-9 /home/Masum/.gradle/caches/8.14/transforms/42058149fdc7881f44c980cffc619bea/transformed/ui-release/res
+com.masum.woof-lifecycle-viewmodel-savedstate-2.8.7-10 /home/Masum/.gradle/caches/8.14/transforms/475996e57ee43713f6add628a6e3d23c/transformed/lifecycle-viewmodel-savedstate-2.8.7/res
+com.masum.woof-savedstate-ktx-1.2.1-11 /home/Masum/.gradle/caches/8.14/transforms/498b9adc3f38a5333c11a43d82ccca9b/transformed/savedstate-ktx-1.2.1/res
+com.masum.woof-customview-poolingcontainer-1.0.0-12 /home/Masum/.gradle/caches/8.14/transforms/4f66a654e7624df67664ac0b193042a8/transformed/customview-poolingcontainer-1.0.0/res
+com.masum.woof-activity-ktx-1.10.1-13 /home/Masum/.gradle/caches/8.14/transforms/5583298689c43763997ed5cbf0dc9ef9/transformed/activity-ktx-1.10.1/res
+com.masum.woof-lifecycle-viewmodel-release-14 /home/Masum/.gradle/caches/8.14/transforms/5a60855fca64158140782230d83054bb/transformed/lifecycle-viewmodel-release/res
+com.masum.woof-startup-runtime-1.1.1-15 /home/Masum/.gradle/caches/8.14/transforms/5aa24bdf259f60672aa1b7e3829b489b/transformed/startup-runtime-1.1.1/res
+com.masum.woof-ui-unit-release-16 /home/Masum/.gradle/caches/8.14/transforms/5ccb703ac7bd2711d0ffc73ce5542730/transformed/ui-unit-release/res
+com.masum.woof-lifecycle-runtime-ktx-release-17 /home/Masum/.gradle/caches/8.14/transforms/63b1f8a507ab2fa8f198a15bfdee0143/transformed/lifecycle-runtime-ktx-release/res
+com.masum.woof-ui-util-release-18 /home/Masum/.gradle/caches/8.14/transforms/64b075326a8a5e4c41da450b62ac9c2e/transformed/ui-util-release/res
+com.masum.woof-constraintlayout-compose-release-19 /home/Masum/.gradle/caches/8.14/transforms/64ea6d218a34e102546f499eb833282b/transformed/constraintlayout-compose-release/res
+com.masum.woof-core-runtime-2.2.0-20 /home/Masum/.gradle/caches/8.14/transforms/6b786a1c4957185eefa273fb62ebbc00/transformed/core-runtime-2.2.0/res
+com.masum.woof-lifecycle-process-2.8.7-21 /home/Masum/.gradle/caches/8.14/transforms/704c2f2bd263ab0b61d89090f3a5c5dd/transformed/lifecycle-process-2.8.7/res
+com.masum.woof-emoji2-1.3.0-22 /home/Masum/.gradle/caches/8.14/transforms/77fbb9b63c0af7a14a4097814ead036e/transformed/emoji2-1.3.0/res
+com.masum.woof-ui-graphics-release-23 /home/Masum/.gradle/caches/8.14/transforms/7d2aad5adffbef6ba52ca04379e3dace/transformed/ui-graphics-release/res
+com.masum.woof-graphics-path-1.0.1-24 /home/Masum/.gradle/caches/8.14/transforms/88551c133e0c3fc88c1bcb28be432cf5/transformed/graphics-path-1.0.1/res
+com.masum.woof-foundation-release-25 /home/Masum/.gradle/caches/8.14/transforms/8b1ff7b4d2c209cf4628a5d20f73ae27/transformed/foundation-release/res
+com.masum.woof-lifecycle-runtime-release-26 /home/Masum/.gradle/caches/8.14/transforms/8e156c24e566de22681c54e314e2de37/transformed/lifecycle-runtime-release/res
+com.masum.woof-material-icons-core-release-27 /home/Masum/.gradle/caches/8.14/transforms/906dee904d7476451497577b2467d8a6/transformed/material-icons-core-release/res
+com.masum.woof-animation-release-28 /home/Masum/.gradle/caches/8.14/transforms/940b3ba0a60aae78934762105cfceb7f/transformed/animation-release/res
+com.masum.woof-runtime-release-29 /home/Masum/.gradle/caches/8.14/transforms/97032c84c059f6970742f0dd6febe3df/transformed/runtime-release/res
+com.masum.woof-lifecycle-viewmodel-ktx-2.8.7-30 /home/Masum/.gradle/caches/8.14/transforms/9b3c1a907a84f6471c16d71245aaa519/transformed/lifecycle-viewmodel-ktx-2.8.7/res
+com.masum.woof-material3-release-31 /home/Masum/.gradle/caches/8.14/transforms/9c284cd4afc021645e7ccd92cdbcf93c/transformed/material3-release/res
+com.masum.woof-ui-geometry-release-32 /home/Masum/.gradle/caches/8.14/transforms/9f9e54ff5ac7e2fcaa75249cfd230e1c/transformed/ui-geometry-release/res
+com.masum.woof-lifecycle-livedata-core-2.8.7-33 /home/Masum/.gradle/caches/8.14/transforms/a1ad58618633d3be9dbce1be2e6dba7f/transformed/lifecycle-livedata-core-2.8.7/res
+com.masum.woof-savedstate-1.2.1-34 /home/Masum/.gradle/caches/8.14/transforms/a21d06bc08dd2e5c0dc7dd1b3cc3a65e/transformed/savedstate-1.2.1/res
+com.masum.woof-animation-core-release-35 /home/Masum/.gradle/caches/8.14/transforms/bc5575fe558382e092c213ac017e64a0/transformed/animation-core-release/res
+com.masum.woof-lifecycle-runtime-compose-release-36 /home/Masum/.gradle/caches/8.14/transforms/c7d46f4d089150b875c6d85ccd8590e8/transformed/lifecycle-runtime-compose-release/res
+com.masum.woof-core-ktx-1.15.0-37 /home/Masum/.gradle/caches/8.14/transforms/ca634892744a5ab7ce7fe6f38a9948b2/transformed/core-ktx-1.15.0/res
+com.masum.woof-ui-text-release-38 /home/Masum/.gradle/caches/8.14/transforms/cb79a1405fa22b388bd3025a95cc9fcc/transformed/ui-text-release/res
+com.masum.woof-runtime-saveable-release-39 /home/Masum/.gradle/caches/8.14/transforms/ddbc55d762587805c00ec29ec8bc2597/transformed/runtime-saveable-release/res
+com.masum.woof-material-icons-extended-release-40 /home/Masum/.gradle/caches/8.14/transforms/e06e099d726bcf028c0d428f9376c8ad/transformed/material-icons-extended-release/res
+com.masum.woof-activity-1.10.1-41 /home/Masum/.gradle/caches/8.14/transforms/fe6b7600ffec970f441ff2231049f103/transformed/activity-1.10.1/res
+com.masum.woof-pngs-42 /home/Masum/Android Projects/Jetpack-Compose/woof/build/generated/res/pngs/release
+com.masum.woof-resValues-43 /home/Masum/Android Projects/Jetpack-Compose/woof/build/generated/res/resValues/release
+com.masum.woof-updated_navigation_xml-44 /home/Masum/Android Projects/Jetpack-Compose/woof/build/generated/updated_navigation_xml/release
+com.masum.woof-packageReleaseResources-45 /home/Masum/Android Projects/Jetpack-Compose/woof/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+com.masum.woof-packageReleaseResources-46 /home/Masum/Android Projects/Jetpack-Compose/woof/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+com.masum.woof-release-47 /home/Masum/Android Projects/Jetpack-Compose/woof/build/intermediates/merged_res/release/mergeReleaseResources
+com.masum.woof-main-48 /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/res
+com.masum.woof-release-49 /home/Masum/Android Projects/Jetpack-Compose/woof/src/release/res

@@ -1,0 +1,292 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.activity:activity:1.10.1] /home/Masum/.gradle/caches/8.14/transforms/fe6b7600ffec970f441ff2231049f103/transformed/activity-1.10.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout-compose-android:1.1.1] /home/Masum/.gradle/caches/8.14/transforms/64ea6d218a34e102546f499eb833282b/transformed/constraintlayout-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /home/Masum/.gradle/caches/8.14/transforms/9c284cd4afc021645e7ccd92cdbcf93c/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /home/Masum/.gradle/caches/8.14/transforms/34767b51ce451c1065ba102c7e525f16/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/bc5575fe558382e092c213ac017e64a0/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/940b3ba0a60aae78934762105cfceb7f/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/1d25a77968dbc9786508871c7f9ad21d/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/8b1ff7b4d2c209cf4628a5d20f73ae27/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/9f9e54ff5ac7e2fcaa75249cfd230e1c/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/0b34679c6779fe4634dd1fac74526572/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/cb79a1405fa22b388bd3025a95cc9fcc/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/7d2aad5adffbef6ba52ca04379e3dace/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/64b075326a8a5e4c41da450b62ac9c2e/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/5ccb703ac7bd2711d0ffc73ce5542730/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /home/Masum/.gradle/caches/8.14/transforms/e06e099d726bcf028c0d428f9376c8ad/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /home/Masum/.gradle/caches/8.14/transforms/906dee904d7476451497577b2467d8a6/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/42058149fdc7881f44c980cffc619bea/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.10.1] /home/Masum/.gradle/caches/8.14/transforms/5583298689c43763997ed5cbf0dc9ef9/transformed/activity-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.10.1] /home/Masum/.gradle/caches/8.14/transforms/079aa688e2a5cc050acb0d45754674b7/transformed/activity-compose-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/Masum/.gradle/caches/8.14/transforms/d4b259a62e806c963224bc351095792f/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/Masum/.gradle/caches/8.14/transforms/77fbb9b63c0af7a14a4097814ead036e/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/Masum/.gradle/caches/8.14/transforms/88551c133e0c3fc88c1bcb28be432cf5/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/Masum/.gradle/caches/8.14/transforms/498b9adc3f38a5333c11a43d82ccca9b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/Masum/.gradle/caches/8.14/transforms/a21d06bc08dd2e5c0dc7dd1b3cc3a65e/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/704c2f2bd263ab0b61d89090f3a5c5dd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/c7d46f4d089150b875c6d85ccd8590e8/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/a1ad58618633d3be9dbce1be2e6dba7f/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/5a60855fca64158140782230d83054bb/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/8e156c24e566de22681c54e314e2de37/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/9b3c1a907a84f6471c16d71245aaa519/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/63b1f8a507ab2fa8f198a15bfdee0143/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/475996e57ee43713f6add628a6e3d23c/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/Masum/.gradle/caches/8.14/transforms/4f66a654e7624df67664ac0b193042a8/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/ca634892744a5ab7ce7fe6f38a9948b2/transformed/core-ktx-1.15.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/Masum/.gradle/caches/8.14/transforms/3f2ccd454d41ad201c4695c4bb5b9f3f/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Masum/.gradle/caches/8.14/transforms/5aa24bdf259f60672aa1b7e3829b489b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /home/Masum/.gradle/caches/8.14/transforms/1adc5574415eb5a8c0f465622b26c9cc/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/Masum/.gradle/caches/8.14/transforms/e87c02baf9bd124e541305d85ac19fd1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/Masum/.gradle/caches/8.14/transforms/6b786a1c4957185eefa273fb62ebbc00/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/97032c84c059f6970742f0dd6febe3df/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/ddbc55d762587805c00ec29ec8bc2597/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/Masum/.gradle/caches/8.14/transforms/318dc119b3c270feba91126e5d678a28/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/Masum/.gradle/caches/8.14/transforms/320401d967bbc8c1884c89fd3e835d5a/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:3:5-17:19
+INJECTED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:3:5-17:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/Masum/.gradle/caches/8.14/transforms/77fbb9b63c0af7a14a4097814ead036e/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/Masum/.gradle/caches/8.14/transforms/77fbb9b63c0af7a14a4097814ead036e/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/704c2f2bd263ab0b61d89090f3a5c5dd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/704c2f2bd263ab0b61d89090f3a5c5dd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Masum/.gradle/caches/8.14/transforms/5aa24bdf259f60672aa1b7e3829b489b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Masum/.gradle/caches/8.14/transforms/5aa24bdf259f60672aa1b7e3829b489b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/Masum/.gradle/caches/8.14/transforms/e87c02baf9bd124e541305d85ac19fd1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/Masum/.gradle/caches/8.14/transforms/e87c02baf9bd124e541305d85ac19fd1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:7:9-35
+	android:roundIcon
+		ADDED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:6:9-54
+	android:icon
+		ADDED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:5:9-43
+	android:allowBackup
+		ADDED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:4:9-35
+	android:theme
+		ADDED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:8:9-42
+activity#com.masum.woof.MainActivity
+ADDED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:9:9-16:20
+	android:exported
+		ADDED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:10:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:12:13-15:29
+action#android.intent.action.MAIN
+ADDED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:14:17-77
+	android:name
+		ADDED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml:14:27-74
+uses-sdk
+INJECTED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml
+INJECTED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml
+MERGED from [androidx.activity:activity:1.10.1] /home/Masum/.gradle/caches/8.14/transforms/fe6b7600ffec970f441ff2231049f103/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] /home/Masum/.gradle/caches/8.14/transforms/fe6b7600ffec970f441ff2231049f103/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout-compose-android:1.1.1] /home/Masum/.gradle/caches/8.14/transforms/64ea6d218a34e102546f499eb833282b/transformed/constraintlayout-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout-compose-android:1.1.1] /home/Masum/.gradle/caches/8.14/transforms/64ea6d218a34e102546f499eb833282b/transformed/constraintlayout-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /home/Masum/.gradle/caches/8.14/transforms/9c284cd4afc021645e7ccd92cdbcf93c/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /home/Masum/.gradle/caches/8.14/transforms/9c284cd4afc021645e7ccd92cdbcf93c/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /home/Masum/.gradle/caches/8.14/transforms/34767b51ce451c1065ba102c7e525f16/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /home/Masum/.gradle/caches/8.14/transforms/34767b51ce451c1065ba102c7e525f16/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/bc5575fe558382e092c213ac017e64a0/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/bc5575fe558382e092c213ac017e64a0/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/940b3ba0a60aae78934762105cfceb7f/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/940b3ba0a60aae78934762105cfceb7f/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/1d25a77968dbc9786508871c7f9ad21d/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/1d25a77968dbc9786508871c7f9ad21d/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/8b1ff7b4d2c209cf4628a5d20f73ae27/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/8b1ff7b4d2c209cf4628a5d20f73ae27/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/9f9e54ff5ac7e2fcaa75249cfd230e1c/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/9f9e54ff5ac7e2fcaa75249cfd230e1c/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/0b34679c6779fe4634dd1fac74526572/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/0b34679c6779fe4634dd1fac74526572/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/cb79a1405fa22b388bd3025a95cc9fcc/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/cb79a1405fa22b388bd3025a95cc9fcc/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/7d2aad5adffbef6ba52ca04379e3dace/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/7d2aad5adffbef6ba52ca04379e3dace/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/64b075326a8a5e4c41da450b62ac9c2e/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/64b075326a8a5e4c41da450b62ac9c2e/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/5ccb703ac7bd2711d0ffc73ce5542730/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/5ccb703ac7bd2711d0ffc73ce5542730/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /home/Masum/.gradle/caches/8.14/transforms/e06e099d726bcf028c0d428f9376c8ad/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /home/Masum/.gradle/caches/8.14/transforms/e06e099d726bcf028c0d428f9376c8ad/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /home/Masum/.gradle/caches/8.14/transforms/906dee904d7476451497577b2467d8a6/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /home/Masum/.gradle/caches/8.14/transforms/906dee904d7476451497577b2467d8a6/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/42058149fdc7881f44c980cffc619bea/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/42058149fdc7881f44c980cffc619bea/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /home/Masum/.gradle/caches/8.14/transforms/5583298689c43763997ed5cbf0dc9ef9/transformed/activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /home/Masum/.gradle/caches/8.14/transforms/5583298689c43763997ed5cbf0dc9ef9/transformed/activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] /home/Masum/.gradle/caches/8.14/transforms/079aa688e2a5cc050acb0d45754674b7/transformed/activity-compose-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] /home/Masum/.gradle/caches/8.14/transforms/079aa688e2a5cc050acb0d45754674b7/transformed/activity-compose-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/Masum/.gradle/caches/8.14/transforms/d4b259a62e806c963224bc351095792f/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/Masum/.gradle/caches/8.14/transforms/d4b259a62e806c963224bc351095792f/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/Masum/.gradle/caches/8.14/transforms/77fbb9b63c0af7a14a4097814ead036e/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/Masum/.gradle/caches/8.14/transforms/77fbb9b63c0af7a14a4097814ead036e/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/Masum/.gradle/caches/8.14/transforms/88551c133e0c3fc88c1bcb28be432cf5/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/Masum/.gradle/caches/8.14/transforms/88551c133e0c3fc88c1bcb28be432cf5/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/Masum/.gradle/caches/8.14/transforms/498b9adc3f38a5333c11a43d82ccca9b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/Masum/.gradle/caches/8.14/transforms/498b9adc3f38a5333c11a43d82ccca9b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/Masum/.gradle/caches/8.14/transforms/a21d06bc08dd2e5c0dc7dd1b3cc3a65e/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/Masum/.gradle/caches/8.14/transforms/a21d06bc08dd2e5c0dc7dd1b3cc3a65e/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/704c2f2bd263ab0b61d89090f3a5c5dd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/704c2f2bd263ab0b61d89090f3a5c5dd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/c7d46f4d089150b875c6d85ccd8590e8/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/c7d46f4d089150b875c6d85ccd8590e8/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/a1ad58618633d3be9dbce1be2e6dba7f/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/a1ad58618633d3be9dbce1be2e6dba7f/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/5a60855fca64158140782230d83054bb/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/5a60855fca64158140782230d83054bb/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/8e156c24e566de22681c54e314e2de37/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/8e156c24e566de22681c54e314e2de37/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/9b3c1a907a84f6471c16d71245aaa519/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/9b3c1a907a84f6471c16d71245aaa519/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/63b1f8a507ab2fa8f198a15bfdee0143/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/63b1f8a507ab2fa8f198a15bfdee0143/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/475996e57ee43713f6add628a6e3d23c/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/475996e57ee43713f6add628a6e3d23c/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/Masum/.gradle/caches/8.14/transforms/4f66a654e7624df67664ac0b193042a8/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/Masum/.gradle/caches/8.14/transforms/4f66a654e7624df67664ac0b193042a8/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/ca634892744a5ab7ce7fe6f38a9948b2/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/ca634892744a5ab7ce7fe6f38a9948b2/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/Masum/.gradle/caches/8.14/transforms/3f2ccd454d41ad201c4695c4bb5b9f3f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/Masum/.gradle/caches/8.14/transforms/3f2ccd454d41ad201c4695c4bb5b9f3f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Masum/.gradle/caches/8.14/transforms/5aa24bdf259f60672aa1b7e3829b489b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Masum/.gradle/caches/8.14/transforms/5aa24bdf259f60672aa1b7e3829b489b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /home/Masum/.gradle/caches/8.14/transforms/1adc5574415eb5a8c0f465622b26c9cc/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /home/Masum/.gradle/caches/8.14/transforms/1adc5574415eb5a8c0f465622b26c9cc/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/Masum/.gradle/caches/8.14/transforms/e87c02baf9bd124e541305d85ac19fd1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/Masum/.gradle/caches/8.14/transforms/e87c02baf9bd124e541305d85ac19fd1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/Masum/.gradle/caches/8.14/transforms/6b786a1c4957185eefa273fb62ebbc00/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/Masum/.gradle/caches/8.14/transforms/6b786a1c4957185eefa273fb62ebbc00/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/97032c84c059f6970742f0dd6febe3df/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/97032c84c059f6970742f0dd6febe3df/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/ddbc55d762587805c00ec29ec8bc2597/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /home/Masum/.gradle/caches/8.14/transforms/ddbc55d762587805c00ec29ec8bc2597/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/Masum/.gradle/caches/8.14/transforms/318dc119b3c270feba91126e5d678a28/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/Masum/.gradle/caches/8.14/transforms/318dc119b3c270feba91126e5d678a28/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/Masum/.gradle/caches/8.14/transforms/320401d967bbc8c1884c89fd3e835d5a/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/Masum/.gradle/caches/8.14/transforms/320401d967bbc8c1884c89fd3e835d5a/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/Masum/Android Projects/Jetpack-Compose/woof/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/Masum/.gradle/caches/8.14/transforms/77fbb9b63c0af7a14a4097814ead036e/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/704c2f2bd263ab0b61d89090f3a5c5dd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/704c2f2bd263ab0b61d89090f3a5c5dd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Masum/.gradle/caches/8.14/transforms/5aa24bdf259f60672aa1b7e3829b489b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Masum/.gradle/caches/8.14/transforms/5aa24bdf259f60672aa1b7e3829b489b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/Masum/.gradle/caches/8.14/transforms/77fbb9b63c0af7a14a4097814ead036e/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/Masum/.gradle/caches/8.14/transforms/77fbb9b63c0af7a14a4097814ead036e/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/Masum/.gradle/caches/8.14/transforms/77fbb9b63c0af7a14a4097814ead036e/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/Masum/.gradle/caches/8.14/transforms/77fbb9b63c0af7a14a4097814ead036e/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/Masum/.gradle/caches/8.14/transforms/77fbb9b63c0af7a14a4097814ead036e/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/Masum/.gradle/caches/8.14/transforms/77fbb9b63c0af7a14a4097814ead036e/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/Masum/.gradle/caches/8.14/transforms/77fbb9b63c0af7a14a4097814ead036e/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+permission#com.masum.woof.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+uses-permission#com.masum.woof.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /home/Masum/.gradle/caches/8.14/transforms/09c18fa0f3914084c70d222316f53373/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/704c2f2bd263ab0b61d89090f3a5c5dd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/704c2f2bd263ab0b61d89090f3a5c5dd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/Masum/.gradle/caches/8.14/transforms/704c2f2bd263ab0b61d89090f3a5c5dd/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/Masum/.gradle/caches/8.14/transforms/07282885bf3e478948175ff17e2a1f2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92

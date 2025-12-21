@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "com.masum.woof-release-46:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.masum.woof-main-47:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.masum.woof-main-47:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable-mdpi_ic_woof_logo.png.flat",
+        "source": "com.masum.woof-pngs-42:/drawable-mdpi/ic_woof_logo.png"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable-xxhdpi_ic_woof_logo.png.flat",
+        "source": "com.masum.woof-pngs-42:/drawable-xxhdpi/ic_woof_logo.png"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.masum.woof-main-47:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.masum.woof-main-47:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.masum.woof-main-47:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.masum.woof-main-47:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable_leroy.jpg.flat",
+        "source": "com.masum.woof-main-47:/drawable/leroy.jpg"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable-hdpi_ic_woof_logo.png.flat",
+        "source": "com.masum.woof-pngs-42:/drawable-hdpi/ic_woof_logo.png"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.masum.woof-main-47:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/font_cabin_regular.ttf.flat",
+        "source": "com.masum.woof-main-47:/font/cabin_regular.ttf"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.masum.woof-main-47:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable-anydpi-v24_ic_woof_logo.xml.flat",
+        "source": "com.masum.woof-pngs-42:/drawable-anydpi-v24/ic_woof_logo.xml"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.masum.woof-main-47:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable_nox.jpg.flat",
+        "source": "com.masum.woof-main-47:/drawable/nox.jpg"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.masum.woof-main-47:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.masum.woof-main-47:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable-xxxhdpi_ic_woof_logo.png.flat",
+        "source": "com.masum.woof-pngs-42:/drawable-xxxhdpi/ic_woof_logo.png"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable_frankie.jpg.flat",
+        "source": "com.masum.woof-main-47:/drawable/frankie.jpg"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable_tzeitel.jpg.flat",
+        "source": "com.masum.woof-main-47:/drawable/tzeitel.jpg"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.masum.woof-main-47:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.masum.woof-main-47:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/font_cabin_bold.ttf.flat",
+        "source": "com.masum.woof-main-47:/font/cabin_bold.ttf"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable_bella.jpg.flat",
+        "source": "com.masum.woof-main-47:/drawable/bella.jpg"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable_faye.jpg.flat",
+        "source": "com.masum.woof-main-47:/drawable/faye.jpg"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.masum.woof-main-47:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable_moana.jpg.flat",
+        "source": "com.masum.woof-main-47:/drawable/moana.jpg"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable_koda.jpg.flat",
+        "source": "com.masum.woof-main-47:/drawable/koda.jpg"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable-ldpi_ic_woof_logo.png.flat",
+        "source": "com.masum.woof-pngs-42:/drawable-ldpi/ic_woof_logo.png"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable_lola.jpg.flat",
+        "source": "com.masum.woof-main-47:/drawable/lola.jpg"
+    },
+    {
+        "merged": "com.masum.woof-release-46:/drawable-xhdpi_ic_woof_logo.png.flat",
+        "source": "com.masum.woof-pngs-42:/drawable-xhdpi/ic_woof_logo.png"
+    }
+]
