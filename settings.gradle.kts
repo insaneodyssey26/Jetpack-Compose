@@ -17,4 +17,5 @@ rootProject.name = "Android-Learnings_Compose"
 
 include(":app")
 include(":woof")
+include(":thirtydays")
 include(":superhero")

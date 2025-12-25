@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.masum.thirtydays-mergeDebugResources-48:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "/home/Masum/.gradle/caches/8.14/transforms/b8523e4c644e772ea2034d326c91c2de/transformed/material3-release/res/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}
