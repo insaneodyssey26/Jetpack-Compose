@@ -13,8 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.unscramble.ui
+package com.masum.unscramble.ui
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -52,9 +53,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.unscramble.aR
-import com.example.unscramble.ui.theme.UnscrambleTheme
-
+import com.masum.unscramble.R
+import com.masum.unscramble.ui.theme.UnscrambleTheme
 @Composable
 fun GameScreen() {
     val mediumPadding = dimensionResource(R.dimen.padding_medium)
@@ -181,9 +181,7 @@ fun GameLayout(modifier: Modifier = Modifier) {
     }
 }
 
-/*
- * Creates and shows an AlertDialog with final score.
- */
+@SuppressLint("ContextCastToActivity")
 @Composable
 private fun FinalScoreDialog(
     score: Int,
@@ -194,9 +192,7 @@ private fun FinalScoreDialog(
 
     AlertDialog(
         onDismissRequest = {
-            // Dismiss the dialog when the user clicks outside the dialog or on the back
-            // button. If you want to disable that functionality, simply use an empty
-            // onCloseRequest.
+
         },
         title = { Text(text = stringResource(R.string.congratulations)) },
         text = { Text(text = stringResource(R.string.you_scored, score)) },
