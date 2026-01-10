@@ -4,5 +4,6 @@ data class GameUiState(
     val currentScrambledWord: String = "",
     val isGuessWrong: Boolean = false,
     val score: Int = 0,
-    val currentWordCount: Int = 1
+    val currentWordCount: Int = 1,
+    val isGameOver: Boolean = false
 )
