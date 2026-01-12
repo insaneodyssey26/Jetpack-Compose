@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.masum.unit-test-viewmodel"
+    namespace = "com.masum.unscrambleUnitTest"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.masum.unit-test-viewmodel"
+        applicationId = "com.masum.unscrambleUnitTest"
         minSdk = 21
         targetSdk = 36
         versionCode = 1
