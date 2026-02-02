@@ -4,3 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.android) apply false
     alias(libs.plugins.kotlin.compose) apply false
 }
+
+buildscript {
+    extra["lifecycle_version"] = "2.5.1"
+}
