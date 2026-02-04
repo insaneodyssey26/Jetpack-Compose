@@ -6,7 +6,7 @@ import com.masum.dessertclickerviewmodel.model.Dessert
 /**
  * [Datasource] generates a list of [Dessert]
  */
-object Datasource {
+object Datasource { // This object is used to hold a list of desserts
     val dessertList = listOf(
         Dessert(R.drawable.cupcake, 5, 0),
         Dessert(R.drawable.donut, 10, 5),

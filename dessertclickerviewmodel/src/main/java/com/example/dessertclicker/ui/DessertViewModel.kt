@@ -8,7 +8,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 
-class DessertViewModel : ViewModel() {
+class DessertViewModel : ViewModel() { //
 
     private val _dessertUiState = MutableStateFlow(DessertUiState())
     val dessertUiState: StateFlow<DessertUiState> = _dessertUiState.asStateFlow()
