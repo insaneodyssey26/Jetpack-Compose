@@ -1,5 +1,7 @@
 package com.masum.navigation
 
+import android.content.Context
+import android.content.Intent
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
@@ -117,10 +119,13 @@ fun CupcakeApp(
                 )
             }
             composable(CupcakeScreen.Summary.name) {
+                val context = LocalContext.current
                 OrderSummaryScreen(
                     orderUiState = uiState,
                     onCancelButtonClicked = {cancelOrder(viewModel, navController)},
-                    onSendButtonClicked = {subject: String, summary: String -> },
+                    onSendButtonClicked = {subject: String, summary: String ->
+                        shareOrder(context, subject = subject, summary = summary)
+                    },
                     modifier = Modifier.fillMaxHeight()
                 )
             }
@@ -136,3 +141,20 @@ private fun cancelOrder (
     navController.popBackStack(CupcakeScreen.Start.name, inclusive = false)
 }
 
+private fun shareOrder (
+    context: Context,
+    subject: String,
+    summary: String
+) {
+    val intent = Intent(Intent.ACTION_SEND).apply {
+        type = "text/plain"
+        putExtra(Intent.EXTRA_SUBJECT, subject)
+        putExtra(Intent.EXTRA_TEXT, summary)
+    }
+    context.startActivity(
+        Intent.createChooser(
+            intent,
+            context.resources.getString(R.string.new_cupcake_order)
+        )
+    )
+}
