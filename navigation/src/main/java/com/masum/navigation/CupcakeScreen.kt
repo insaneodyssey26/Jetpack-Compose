@@ -28,6 +28,12 @@ import com.masum.navigation.data.DataSource
 import com.masum.navigation.ui.OrderViewModel
 import com.masum.navigation.ui.StartOrderScreen
 
+enum class CupcakeScreen() {
+    Start,
+    Flavor,
+    Pickup,
+    Summary
+}
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CupcakeAppBar(
@@ -67,12 +73,13 @@ fun CupcakeApp(
             )
         }
     ) { innerPadding ->
+        val uiState by viewModel.uiState.collectAsState()
         NavHost(
             navController = navController,
-            startDestination = "start",
+            startDestination = CupcakeScreen.Start.name,
             modifier = Modifier.padding(innerPadding)
         ) {
-            composable("start") {
+            composable(CupcakeScreen.Start.name) {
                 StartOrderScreen(
                     quantityOptions = DataSource.quantityOptions,
                     modifier = Modifier
