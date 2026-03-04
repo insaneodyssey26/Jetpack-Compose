@@ -98,7 +98,6 @@ fun SelectOptionScreen(
             }
             Button(
                 modifier = Modifier.weight(1f),
-                // the button is enabled when the user makes a selection
                 enabled = selectedValue.isNotEmpty(),
                 onClick = onNextButtonClicked
             ) {
