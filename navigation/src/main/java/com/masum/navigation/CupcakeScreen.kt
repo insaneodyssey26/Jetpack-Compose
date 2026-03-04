@@ -1,6 +1,7 @@
 package com.masum.navigation
 
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
@@ -16,11 +17,16 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.masum.navigation.data.DataSource
 import com.masum.navigation.ui.OrderViewModel
+import com.masum.navigation.ui.StartOrderScreen
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -53,7 +59,6 @@ fun CupcakeApp(
     viewModel: OrderViewModel = viewModel(),
     navController: NavHostController = rememberNavController()
 ) {
-
     Scaffold(
         topBar = {
             CupcakeAppBar(
@@ -62,9 +67,19 @@ fun CupcakeApp(
             )
         }
     ) { innerPadding ->
-        val uiState by viewModel.uiState.collectAsState()
-        Box(modifier = Modifier.padding(innerPadding)) {
-            Text(text = uiState.toString())
+        NavHost(
+            navController = navController,
+            startDestination = "start",
+            modifier = Modifier.padding(innerPadding)
+        ) {
+            composable("start") {
+                StartOrderScreen(
+                    quantityOptions = DataSource.quantityOptions,
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(dimensionResource(R.dimen.padding_medium))
+                )
+            }
         }
     }
 }

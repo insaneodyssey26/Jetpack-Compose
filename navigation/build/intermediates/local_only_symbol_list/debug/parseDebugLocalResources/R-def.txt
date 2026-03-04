@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+dimen padding_medium
+dimen padding_small
+dimen thickness_divider
+drawable cupcake
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+plurals cupcakes
+string app_name
+string back_button
+string cancel
+string chocolate
+string choose_flavor
+string choose_pickup_date
+string coffee
+string flavor
+string new_cupcake_order
+string next
+string one_cupcake
+string order_cupcakes
+string order_details
+string order_summary
+string pickup_date
+string quantity
+string red_velvet
+string salted_caramel
+string send
+string six_cupcakes
+string special_flavor
+string subtotal_price
+string total_price
+string twelve_cupcakes
+string vanilla
+style Theme.Cupcake

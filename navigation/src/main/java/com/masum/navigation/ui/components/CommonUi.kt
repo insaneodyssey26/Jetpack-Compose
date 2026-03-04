@@ -5,7 +5,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import com.example.cupcake.R
+import com.masum.navigation.R
 
 /**
  * Composable that displays formatted [price] that will be formatted and displayed on screen
