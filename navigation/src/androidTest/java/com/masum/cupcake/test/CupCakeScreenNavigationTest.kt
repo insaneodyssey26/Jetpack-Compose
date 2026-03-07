@@ -10,19 +10,18 @@ import org.junit.Before
 import org.junit.Rule
 
 class CupCakeScreenNavigationTest {
+    @get: Rule
+    val composeTestRule = createAndroidComposeRule<ComponentActivity>()
 
-}
-@get: Rule
-val composeTestRule = createAndroidComposeRule<ComponentActivity>()
+    private lateinit var navController: TestNavHostController
 
-private lateinit var navController: TestNavHostController
-
-@Before
-fun setupCupCakeNavHost() {
-    composeTestRule.setContent {
-        navController = TestNavHostController(LocalContext.current).apply {
+    @Before
+    fun setupCupCakeNavHost() {
+        composeTestRule.setContent {
+            navController = TestNavHostController(LocalContext.current).apply {
                 navigatorProvider.addNavigator(ComposeNavigator())
+            }
+            CupcakeApp(navController = navController)
         }
-        CupcakeApp(navController = navController)
     }
 }
