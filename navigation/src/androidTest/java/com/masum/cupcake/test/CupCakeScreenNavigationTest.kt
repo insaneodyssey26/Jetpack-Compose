@@ -4,6 +4,7 @@ import androidx.activity.ComponentActivity
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.performClick
 import androidx.navigation.compose.ComposeNavigator
 import androidx.navigation.testing.TestNavHostController
 import com.masum.navigation.CupcakeApp
@@ -39,5 +40,12 @@ class CupCakeScreenNavigationTest {
     fun verifyNoBackNavigationFromStartDestination() {
         val backText = composeTestRule.activity.getString(com.masum.navigation.R.string.back_button)
         composeTestRule.onNodeWithContentDescription(backText).assertDoesNotExist()
+    }
+
+    @Test
+    fun clickOneCupcake_navigatesToSelectFlavorScreen(){
+        composeTestRule.onNodeWithStringId(com.masum.navigation.R.string.one_cupcake)
+            .performClick()
+        navController.assertCurrentRouteName(CupcakeScreen.Flavor.name)
     }
 }
