@@ -9,7 +9,7 @@ import androidx.navigation.compose.ComposeNavigator
 import androidx.navigation.testing.TestNavHostController
 import com.masum.navigation.CupcakeApp
 import com.masum.navigation.CupcakeScreen
-import com.masum.navigation.test.R
+import com.masum.navigation.R
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
@@ -47,5 +47,12 @@ class CupCakeScreenNavigationTest {
         composeTestRule.onNodeWithStringId(com.masum.navigation.R.string.one_cupcake)
             .performClick()
         navController.assertCurrentRouteName(CupcakeScreen.Flavor.name)
+    }
+
+    private fun navigateToFlavorScreen() {
+        composeTestRule.onNodeWithStringId(R.string.one_cupcake)
+            .performClick()
+        composeTestRule.onNodeWithStringId(R.string.chocolate)
+            .performClick()
     }
 }
