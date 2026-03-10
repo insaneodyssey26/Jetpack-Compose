@@ -1,5 +1,6 @@
 package com.masum.cupcake.test
 
+import android.icu.util.Calendar
 import androidx.activity.ComponentActivity
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
@@ -14,6 +15,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
+import java.text.SimpleDateFormat
 
 class CupCakeScreenNavigationTest {
     @get: Rule
@@ -54,5 +56,12 @@ class CupCakeScreenNavigationTest {
             .performClick()
         composeTestRule.onNodeWithStringId(R.string.chocolate)
             .performClick()
+    }
+
+    private fun getDate(): String {
+        val date =  Calendar.getInstance()
+        date.add(java.util.Calendar.DATE, 1)
+        val formatter = SimpleDateFormat("E, MMM d", java.util.Locale.getDefault())
+        return formatter.format(date.time)
     }
 }
