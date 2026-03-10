@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.navigation.compose.ComposeNavigator
 import androidx.navigation.testing.TestNavHostController
@@ -63,5 +64,19 @@ class CupCakeScreenNavigationTest {
         date.add(java.util.Calendar.DATE, 1)
         val formatter = SimpleDateFormat("E, MMM d", java.util.Locale.getDefault())
         return formatter.format(date.time)
+    }
+
+    private fun navigateToPickupScreen() {
+        navigateToFlavorScreen()
+        composeTestRule.onNodeWithStringId(R.string.next)
+            .performClick()
+    }
+
+    private fun navigateToSummaryScreen() {
+        navigateToPickupScreen()
+        composeTestRule.onNodeWithText(getDate())
+            .performClick()
+        composeTestRule.onNodeWithStringId(R.string.next)
+            .performClick()
     }
 }
