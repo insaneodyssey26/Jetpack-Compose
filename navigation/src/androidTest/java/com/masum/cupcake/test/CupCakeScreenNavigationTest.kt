@@ -84,4 +84,12 @@ class CupCakeScreenNavigationTest {
         val backText = composeTestRule.activity.getString(R.string.back_button)
         composeTestRule.onNodeWithContentDescription(backText).performClick()
     }
+
+    @Test
+    fun clickNextOnFlavorScreen_navigatesToPickupScreen() {
+        navigateToFlavorScreen()
+        composeTestRule.onNodeWithStringId(R.string.next)
+            .performClick()
+        navController.assertCurrentRouteName(CupcakeScreen.Pickup.name)
+    }
 }
