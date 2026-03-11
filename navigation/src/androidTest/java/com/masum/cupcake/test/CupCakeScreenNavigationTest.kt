@@ -92,4 +92,52 @@ class CupCakeScreenNavigationTest {
             .performClick()
         navController.assertCurrentRouteName(CupcakeScreen.Pickup.name)
     }
+
+    @Test
+    fun clickBackOnFlavorScreen_navigatesToStartOrderScreen() {
+        navigateToFlavorScreen()
+        performNavigateUp()
+        navController.assertCurrentRouteName(CupcakeScreen.Start.name)
+    }
+
+    @Test
+    fun clickCancelOnFlavorScreen_navigatesToStartOrderScreen() {
+        navigateToFlavorScreen()
+        composeTestRule.onNodeWithStringId(R.string.cancel)
+            .performClick()
+        navController.assertCurrentRouteName(CupcakeScreen.Start.name)
+    }
+
+    @Test
+    fun clickNextOnPickupScreen_navigatesToSummaryScreen() {
+        navigateToPickupScreen()
+        composeTestRule.onNodeWithText(getDate())
+            .performClick()
+        composeTestRule.onNodeWithStringId(R.string.next)
+            .performClick()
+        navController.assertCurrentRouteName(CupcakeScreen.Summary.name)
+    }
+
+    @Test
+    fun clickBackOnPickupScreen_navigatesToFlavorScreen() {
+        navigateToPickupScreen()
+        performNavigateUp()
+        navController.assertCurrentRouteName(CupcakeScreen.Flavor.name)
+    }
+
+    @Test
+    fun clickCancelOnPickupScreen_navigatesToStartOrderScreen() {
+        navigateToPickupScreen()
+        composeTestRule.onNodeWithStringId(R.string.cancel)
+            .performClick()
+        navController.assertCurrentRouteName(CupcakeScreen.Start.name)
+    }
+
+    @Test
+    fun clickCancelOnSummaryScreen_navigatesToStartOrderScreen() {
+        navigateToSummaryScreen()
+        composeTestRule.onNodeWithStringId(R.string.cancel)
+            .performClick()
+        navController.assertCurrentRouteName(CupcakeScreen.Start.name)
+    }
 }
