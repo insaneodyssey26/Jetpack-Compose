@@ -79,4 +79,9 @@ class CupCakeScreenNavigationTest {
         composeTestRule.onNodeWithStringId(R.string.next)
             .performClick()
     }
+
+    private fun performNavigateUp() {
+        val backText = composeTestRule.activity.getString(R.string.back_button)
+        composeTestRule.onNodeWithContentDescription(backText).performClick()
+    }
 }
