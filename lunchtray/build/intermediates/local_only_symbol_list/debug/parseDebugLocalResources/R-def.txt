@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+dimen padding_medium
+dimen padding_small
+dimen thickness_divider
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string back_button
+string cancel
+string choose_accompaniment
+string choose_entree
+string choose_side_dish
+string next
+string order_checkout
+string order_summary
+string start_order
+string submit
+string subtotal
+string tax
+string total
+style Theme.LunchTray
