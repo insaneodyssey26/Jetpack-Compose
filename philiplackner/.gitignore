@@ -1,0 +1,3 @@
+ # Ignore build outputs for the philiplackner module
+ /build
+
