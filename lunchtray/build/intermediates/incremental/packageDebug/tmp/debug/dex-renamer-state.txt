@@ -1,11 +1,11 @@
-#Sun Mar 29 19:08:31 IST 2026
-base.0=/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.2=/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
-base.3=/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
-base.4=/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
-base.5=/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
-base.6=/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+#Wed Apr 22 21:28:28 IST 2026
+base.0=/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
+base.3=/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
+base.4=/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
+base.5=/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
+base.6=/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=13/classes.dex

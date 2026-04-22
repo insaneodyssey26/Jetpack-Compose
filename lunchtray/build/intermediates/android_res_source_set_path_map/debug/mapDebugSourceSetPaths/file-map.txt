@@ -45,11 +45,11 @@ com.masum.lunchtray-ui-release-43 /home/masum/.gradle/caches/9.2.1/transforms/e5
 com.masum.lunchtray-lifecycle-viewmodel-ktx-2.8.7-44 /home/masum/.gradle/caches/9.2.1/transforms/e7c08c894839cac7de135797e96251c5/transformed/lifecycle-viewmodel-ktx-2.8.7/res
 com.masum.lunchtray-material3-release-45 /home/masum/.gradle/caches/9.2.1/transforms/e9b2280bdf1e837d11fbc91bb94995a1/transformed/material3-release/res
 com.masum.lunchtray-activity-1.10.1-46 /home/masum/.gradle/caches/9.2.1/transforms/fab8be81b3fb57b3da487eaa2ac04307/transformed/activity-1.10.1/res
-com.masum.lunchtray-pngs-47 /mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/generated/res/pngs/debug
-com.masum.lunchtray-resValues-48 /mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/generated/res/resValues/debug
-com.masum.lunchtray-updated_navigation_xml-49 /mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/generated/updated_navigation_xml/debug
-com.masum.lunchtray-packageDebugResources-50 /mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.masum.lunchtray-packageDebugResources-51 /mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.masum.lunchtray-debug-52 /mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/merged_res/debug/mergeDebugResources
-com.masum.lunchtray-debug-53 /mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/debug/res
-com.masum.lunchtray-main-54 /mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/res
+com.masum.lunchtray-pngs-47 /mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/generated/res/pngs/debug
+com.masum.lunchtray-resValues-48 /mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/generated/res/resValues/debug
+com.masum.lunchtray-updated_navigation_xml-49 /mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/generated/updated_navigation_xml/debug
+com.masum.lunchtray-packageDebugResources-50 /mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.masum.lunchtray-packageDebugResources-51 /mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.masum.lunchtray-debug-52 /mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/build/intermediates/merged_res/debug/mergeDebugResources
+com.masum.lunchtray-debug-53 /mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/debug/res
+com.masum.lunchtray-main-54 /mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/res

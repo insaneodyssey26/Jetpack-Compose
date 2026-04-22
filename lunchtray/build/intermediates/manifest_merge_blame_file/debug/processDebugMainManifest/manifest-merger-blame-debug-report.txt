@@ -20,39 +20,39 @@
 15-->[androidx.core:core:1.15.0] /home/masum/.gradle/caches/9.2.1/transforms/b329f6ed5b9b5954a6404b1334174fd2/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:5:5-21:19
+17-->/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:5:5-21:19
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 18-->[androidx.core:core:1.15.0] /home/masum/.gradle/caches/9.2.1/transforms/b329f6ed5b9b5954a6404b1334174fd2/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
 19        android:debuggable="true"
 20        android:extractNativeLibs="true"
 21        android:icon="@mipmap/ic_launcher"
-21-->/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:6:9-43
+21-->/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:6:9-43
 22        android:label="@string/app_name"
-22-->/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:7:9-41
+22-->/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:7:9-41
 23        android:roundIcon="@mipmap/ic_launcher_round"
-23-->/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:8:9-54
+23-->/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:8:9-54
 24        android:supportsRtl="true"
-24-->/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:9:9-35
+24-->/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:9:9-35
 25        android:testOnly="true"
 26        android:theme="@style/Theme.LunchTray" >
-26-->/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:10:9-47
+26-->/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:10:9-47
 27        <activity
-27-->/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:12:9-20:20
+27-->/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:12:9-20:20
 28            android:name="com.masum.lunchtray.MainActivity"
-28-->/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:13:13-41
+28-->/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:13:13-41
 29            android:exported="true"
-29-->/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:14:13-36
+29-->/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:14:13-36
 30            android:theme="@style/Theme.LunchTray" >
-30-->/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:15:13-51
+30-->/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:15:13-51
 31            <intent-filter>
-31-->/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:16:13-19:29
+31-->/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:16:13-19:29
 32                <action android:name="android.intent.action.MAIN" />
-32-->/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:17:17-69
-32-->/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:17:25-66
+32-->/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:17:17-69
+32-->/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:17:25-66
 33
 34                <category android:name="android.intent.category.LAUNCHER" />
-34-->/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:18:17-77
-34-->/mnt/Windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:18:27-74
+34-->/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:18:17-77
+34-->/mnt/windows/Repositories/Android Repos/Jetpack-Compose/lunchtray/src/main/AndroidManifest.xml:18:27-74
 35            </intent-filter>
 36        </activity>
 37        <activity
