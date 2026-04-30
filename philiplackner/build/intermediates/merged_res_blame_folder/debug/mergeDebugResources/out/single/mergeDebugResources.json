@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.philiplackner-debug-64:/font_libertinussans_regular.ttf.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.philiplackner-main-66:/font/libertinussans_regular.ttf"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.philiplackner-debug-64:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.philiplackner-main-66:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.masum.philiplackner-debug-64:/drawable_music_knob.png.flat",
+        "source": "com.masum.philiplackner-main-66:/drawable/music_knob.png"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.philiplackner-debug-64:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.philiplackner-main-66:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.philiplackner-debug-64:/font_libertinussans_bold.ttf.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.philiplackner-main-66:/font/libertinussans_bold.ttf"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.philiplackner-debug-64:/font_libertinussans_italic.ttf.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.philiplackner-main-66:/font/libertinussans_italic.ttf"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.philiplackner-debug-64:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.philiplackner-main-66:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/Masum/.gradle/daemon/8.14/com.masum.philiplackner-debug-64:/mipmap-xxxhdpi_ic_launcher_foreground.xml.flat",
+        "source": "/home/Masum/.gradle/daemon/8.14/com.masum.philiplackner-main-66:/mipmap-xxxhdpi/ic_launcher_foreground.xml"
+    }
+]
